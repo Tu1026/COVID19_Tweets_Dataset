@@ -56,11 +56,8 @@ Language Breakdown **(Pending)**.
 
 ## Inquiries
 
-For questions about the dataset, please contact Dr. Christian Lopez at **lopezbec@lafayette.edu** or Malolan Vasu at **vasum@lafayette.edu**. **TODO (Add Prof. Gallemore?)**
+For questions about the dataset, please contact Dr. Christian Lopez at **lopezbec@lafayette.edu** 
 
 ## Licensing
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). By using this dataset, you agree to abide by the stipulations in the license, remain in compliance with Twitterâs [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
 
-**TODO (Insert our paper here)**
-
-**TODO Do we acknowledge Chen et al. for confirming our idea for publishing tweed IDs only**
