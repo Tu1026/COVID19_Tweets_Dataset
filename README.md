@@ -80,7 +80,7 @@ This dataset is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 ## Citation
 
-Christian E. Lopez and Malolan Vasu and Caleb Gallemore (2020) Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset. arXiv:cs.SI/2003.10359,2020
+Christian Lopez, Malolan Vasu, and Caleb Gallemore (2020) Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset. arXiv:cs.SI/2003.10359,2020
 [https://arxiv.org/abs/2003.10359](https://arxiv.org/abs/2003.10359)
 
 
