@@ -5,7 +5,7 @@ The dataset contains tweet-IDs dating back to January 22th, 2020. Twitter’s se
 In order to comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), 
  only the tweet-IDs of the Tweets gathered are released for non-commercial research use only.
 
-The paper associated with this dataset can be found here: **(manuscript)**
+The paper associated with this dataset can be found here: [Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset](https://arxiv.org/abs/2003.10359)
 
 ## Data Organization
 The tweet-IDs are organized by keywords as follows:
@@ -78,7 +78,8 @@ For questions about the dataset, please contact Dr. Christian Lopez at **lopezbe
 ## Licensing
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). By using this dataset, you agree to abide by the stipulations in the license, remain in compliance with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
 
-**(manuscript)**
+[Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset](https://arxiv.org/abs/2003.10359)
+
 
 ## References
  <a name="chen"></a> Emily Chen, Kristina Lerman, and Emilio Ferrara. 2020. #COVID-19: The First Public Coronavirus Twitter Dataset. arXiv:cs.SI/2003.07372, 2020
