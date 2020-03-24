@@ -14,7 +14,7 @@ The tweet-IDs are organized by keywords as follows:
 * Since the Twitter API returns tweets in UTC, all tweet-ID folder and file names are all in UTC as well.
 
 
-## Notes About the Data
+## Data Description
 * Not all keywords were tracked from the very beginning. As news about the novel coronavirus spread, additional keywords were added to the search list. The keywords used for search tweets are: virus and coronavirus since 22 January, ncov19 and ncov2019 since 26 February, and covid since 7 March 2020. 
 * Only tweets in English were collected from 22 January to 31 January 2020, after this time the algorithm collected tweets in all languages. 
 * Our dataset **does not** capture every single tweet on Twitter relating to the keywords as our data retrieval is restricted by the Twitter API at 45,000 tweets every 15 minutes.
