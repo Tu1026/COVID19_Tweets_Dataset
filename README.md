@@ -78,6 +78,8 @@ For questions about the dataset, please contact Dr. Christian Lopez at **lopezbe
 ## Licensing
 This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)). By using this dataset, you agree to abide by the stipulations in the license, remain in compliance with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), and cite the following manuscript: 
 
+## Citation
+
 Christian E. Lopez and Malolan Vasu and Caleb Gallemore (2020) Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset. arXiv:cs.SI/2003.10359,2020
 [https://arxiv.org/abs/2003.10359](https://arxiv.org/abs/2003.10359)
 
