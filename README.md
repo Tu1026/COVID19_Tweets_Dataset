@@ -6,6 +6,8 @@ Tweets from multiple continents in multiple languages that contained a given key
 In order to comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), 
  only  the Tweet IDs of the Tweets gathered are released for non-commercial research use only.
  
+The dataset is also on Kaggle:[Covid19-tweets-dataset](https://www.kaggle.com/lopezbec/covid19-tweets-dataset)
+ 
  The associated paper to this repository can be found here: [Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset. arXiv:cs.SI/2003.10359,2020 https://arxiv.org/abs/2003.10359](https://arxiv.org/abs/2003.10359)
  
 ## Data Organization
