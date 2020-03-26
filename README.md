@@ -1,3 +1,11 @@
+# COVID-19 Multilanguage Tweets Dataset
+
+The repository contains an ongoing collection of tweets IDs associated with the novel coronavirus COVID-19.
+The dataset contains Tweets' ids dating back to January 22th, 2020. The Twitter’s search API was used to gather historical 
+Tweets from multiple continents in multiple languages that containied a given keyword (i.e., coronavirus, virus, covid, ncov19, ncov2019).
+In order to comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), 
+ only  the Tweet IDs of the Tweets gathered are released for non-commercial research use only.
+ 
 ## Data Organization
 The tweet-IDs are organized by keywords as follows:
 * Tweet-ID files are stored in folders that indicate the keyword used (i.e., coronavirus, virus, covid, ncov19, ncov2019). 
