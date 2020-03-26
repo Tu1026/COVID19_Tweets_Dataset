@@ -1,16 +1,7 @@
-# COVID-19 Multilanguage Tweets Dataset
-
-The repository contains an ongoing collection of tweet-IDs associated with the novel coronavirus (COVID-19).
-The dataset contains tweet-IDs dating back to January 22th, 2020. Twitter’s search API was used to gather historical tweets from multiple continents in multiple languages that containied a given keyword (i.e., coronavirus, virus, covid, ncov19, ncov2019).
-In order to comply with Twitter’s [Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy), 
- only the tweet-IDs of the Tweets gathered are released for non-commercial research use only.
-
-The paper associated with this dataset can be found here: [Understanding the perception of COVID-19 policies by mining a multilanguage Twitter dataset](https://arxiv.org/abs/2003.10359)
-
 ## Data Organization
 The tweet-IDs are organized by keywords as follows:
 * Tweet-ID files are stored in folders that indicate the keyword used (i.e., coronavirus, virus, covid, ncov19, ncov2019). 
-* The Tweet-ID file is a `.txt` containsing individual Tweet-IDs stored as a comma-separated-list. The file names follow the naming convention of : `[Keyword]_yyyy_mm_dd.txt` (e.g., `coronavirus_2020_01_22.txt` contains the ids of tweets mentioning the keyword 'coronavirus' tweeted on January 22th, 2020).
+* The Tweet-ID file is a `.txt` containing individual Tweet-IDs stored as a comma-separated-list. The file names follow the naming convention of : `[Keyword]_yyyy_mm_dd.txt` (e.g., `coronavirus_2020_01_22.txt` contains the ids of tweets mentioning the keyword 'coronavirus' tweeted on January 22th, 2020).
 * Since the Twitter API returns tweets in UTC, all tweet-ID folder and file names are all in UTC as well.
 
 
@@ -24,12 +15,12 @@ The tweet-IDs are organized by keywords as follows:
 * Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the tweet-IDs i.e. to fetch tweet data associated with the tweet-IDs using Twitter's API. 
 * Tweets deleted after our initial collection may still be present in our dataset, but their details can no longer be retrieved by using Twitter's API.
 * We are working on publishing the estimates on the number of deleted tweets in our dataset.
-* [Chen et al., 2020](#chen) has published a dataset, similar to ours, contatining tweet-IDs relating to the novel coronavirus. For those looking for an even larger dataset than ours, merging the two datasets is a valid option.
+* [Chen et al., 2020](#chen) has published a dataset, similar to ours, containing tweet-IDs relating to the novel coronavirus. For those looking for an even larger dataset than ours, merging the two datasets is a valid option.
 ## Hydrating Tweets
 
 The Twitter API's rate limits pose an issue to fetch data from tweed-IDs. So, we recommended using Hydrator to convert the list of tweed-IDs, into a CSV file containing all data and meta-data relating to the tweets. Hydrator also manages Twitter API Rate Limits for you. 
 
-For those who prefer a command line interface over a GUI, we recommend using Twarc.
+For those who prefer a command-line interface over a GUI, we recommend using Twarc.
 
 ### Using [Hydrator](https://github.com/DocNow/hydrator)
 Follow the instructions on the [Hydrator github repository](https://github.com/DocNow/hydrator).
