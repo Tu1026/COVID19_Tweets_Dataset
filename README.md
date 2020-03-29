@@ -39,6 +39,14 @@ The tweet-IDs are organized by keywords as follows:
 
 ## Hydrating Tweets
 
+### Using our TWARC Notebook
+The  notebook [Automatically_Hydrate_TweetsIDs_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID190.ipynb) will allow you to automatically hydrate the tweets-ID form our [COVID19_Tweets_dataset GitHub repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
+
+You can run this notebook directly on the cloud using Google Colab [(see how to tutorials)]( https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc) and Google Drive.
+
+In order to hydrate the tweet-IDs using [TWARC](https://github.com/DocNow/twarc) you need to create a [Twitter Developer Account]( https://developer.twitter.com/en/apply-for-access).
+
+
 The Twitter API's rate limits pose an issue to fetch data from tweed-IDs. So, we recommended using Hydrator to convert the list of tweed-IDs, into a CSV file containing all data and meta-data relating to the tweets. Hydrator also manages Twitter API Rate Limits for you. 
 
 For those who prefer a command-line interface over a GUI, we recommend using Twarc.
