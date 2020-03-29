@@ -23,15 +23,18 @@ The tweet-IDs are organized by keywords as follows:
 
 ## Data Collection Process
 * Not all keywords were tracked from the very beginning. As news about the novel coronavirus spread, additional keywords were added to the search list. The keywords used for search tweets are: virus and coronavirus since 22 January, ncov19 and ncov2019 since 26 February, and covid since 7 March 2020. 
-* Only tweets in English were collected from 22 January to 31 January 2020, after this time the algorithm collected tweets in all languages. 
 * Since the Twitter API can provide tweets up to 7-days in the pass, there is a  lag of 7-days in the dataset to ensure as much tweets as possible are sampled.
 * Our dataset **does not** capture every single tweet on Twitter relating to the keywords as our data retrieval is restricted by the Twitter API at 45,000 tweets every 15 minutes.
-* You can notice that there are fewer tweets relating to the novel coronavirus present in our dataset in the first few weeks than in the following weeks. This can explained by the fact that our data collection involved tracking other keywords unrelated to the coronavirus during the first few weeks (other projects). This meant that the number of coronavirus-related tweets were limited at a fraction of the total API limit. Once unrelated keywords were removed from our search options, the limit of coronavirus-related tweets became the total API limit, hence resulting in more tweets in our dataset.
-* Our dataset is currently missing tweed-ID entries for Feb 06 and 07, 2020. This data was lost due to technical errors. However, tweet data was retained and hence our statistics were not affected by this loss of tweet-IDs. We currently are working on retrieving the lost tweet-ID data.
 * We currently have some descriptive statistics about our dataset displayed in the paper associated with it. We are working on automatically updating these statistics with every update of the dataset.
 * Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the tweet-IDs i.e. to fetch tweet data associated with the tweet-IDs using Twitter's API. 
 * Tweets deleted after our initial collection may still be present in our dataset, but their details can no longer be retrieved by using Twitter's API.
 * [Chen et al., 2020](#chen) has published a dataset, similar to ours, containing tweet-IDs relating to the novel coronavirus. For those looking for an even larger dataset than ours, merging the two datasets is a valid option.
+
+### Data Collection Process Inconsistencies
+* Only tweets in English were collected from 22 January to 31 January 2020, after this time the algorithm collected tweets in all languages. 
+* You can notice that there are fewer tweets relating to the novel coronavirus present in our dataset in the first few weeks than in the following weeks. This can explained by the fact that our data collection involved tracking other keywords unrelated to the coronavirus during the first few weeks (other projects). This meant that the number of coronavirus-related tweets were limited at a fraction of the total API limit. Once unrelated keywords were removed from our search options, the limit of coronavirus-related tweets became the total API limit, hence resulting in more tweets in our dataset.
+* Our dataset is currently missing tweed-ID entries for Feb 06 and 07, 2020. This data was lost due to technical errors. However, tweet data was retained and hence our statistics were not affected by this loss of tweet-IDs. We currently are working on retrieving the lost tweet-ID data.
+* Our dataset is currently missing tweed-ID entries for March 24th keywords: virus, coronavirus, covid, nvoc2019 (i.e., only ncov19 are present in the data set). This data was lost due to technical errors.
 
 ## Hydrating Tweets
 
