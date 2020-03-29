@@ -40,7 +40,7 @@ The tweet-IDs are organized by keywords as follows:
 ## Hydrating Tweets
 
 ### Using our TWARC Notebook
-The  notebook [Automatically_Hydrate_TweetsIDs_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID190.ipynb) will allow you to automatically hydrate the tweets-ID form our [COVID19_Tweets_dataset GitHub repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
+The  notebook [Automatically_Hydrate_TweetsIDs_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID190.ipynb) will allow you to automatically hydrate the tweets-ID from our [COVID19_Tweets_dataset GitHub repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
 
 You can run this notebook directly on the cloud using Google Colab [(see how to tutorials)]( https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc) and Google Drive.
 
