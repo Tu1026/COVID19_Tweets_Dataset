@@ -64,32 +64,31 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 
 ## Data Statistics
 
-The following are as of **13 March, 2020**. (v1)
+The following are as of **31 March, 2020**. (v1)
 
-Number of Tweets: **6,468,526**.
+Number of Tweets: **31,223,884**.
 
 Language Breakdown:
-| Language           | Percent of Tweets |
-| ------------------ | ----------------- |
-| English            | 63.45             |
-| Spanish            | 12.68             |
-| Portuguese         | 4.46              |
-| Bahasa             | 4.25              |
-| French             | 3.96              |
-| Italian            | 3.85              |
-| Thai               | 1.68              |
-| Japanese           | 1.35              |
-| German             | 0.78              |
-| Tagalog            | 0.72              |
-| Turkish            | 0.49              |
-| Catalan; Valencian | 0.39              |
-| Dutch; Flemish     | 0.32              |
-| Hindi              | 0.28              |
-| Chinese            | 0.24              |
-| Lithuanian         | 0.16              |
-| Korean             | 0.15              |
-| Arabic             | 0.11              |
-| Other              | 0.69              |
+
+
+| Language           | Number of Tweets | Percentage |
+|--------------------|------------------|------------|
+| English            |  17,997,610.00   | 58.16%     |
+| Spanish; Castilian |  5,155,080.00    | 16.66%     |
+| Portuguese         |  2,138,460.00    | 6.91%      |
+| Bahasa             |  1,612,387.00    | 5.21%      |
+| French             |  1,227,957.00    | 3.97%      |
+| Thai               |  606,585.00      | 1.96%      |
+| Italian            |  495,991.00      | 1.60%      |
+| Japanese           |  242,022.00      | 0.78%      |
+| Turkish            |  218,446.00      | 0.71%      |
+| Tagalog            |  208,131.00      | 0.67%      |
+| German             |  192,218.00      | 0.62%      |
+| Catalan; Valencian |  187,292.00      | 0.61%      |
+| Hindi              |  180,107.00      | 0.58%      |
+| Dutch; Flemish     |  90,278.00       | 0.29%      |
+| Arabic             |  51,144.00       | 0.17%      |
+| Others             |  338,825.00      | 1.10%      |
 
 ## Inquiries
 
