@@ -64,7 +64,7 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 
 ## Data Statistics
 
-The following are as of **31 March, 2020**. (v1)
+The following are as of **31 March, 2020**. (v1.2)
 
 Number of Tweets: **31,223,884**.
 
