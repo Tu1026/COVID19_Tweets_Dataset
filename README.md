@@ -111,8 +111,8 @@ Tweets Breakdown by Search/Key word:
 | ncov2019    |  68,892      |
 
 
-![](Tweets Analysis/Tweets by Language.png)
-![](Tweets Analysis/GeoTweets.png)
+![](Tweets%20Analysis/Tweets%20by%20Language.png)
+![](Tweets%20Analysis/GeoTweets.png)
 
 ## Inquiries
 
