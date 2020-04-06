@@ -64,13 +64,13 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 
 ## Data Statistics
 
-The following are as of **31 March, 2020**. (v1.2)
+The following data is from Tweets colected until **31 March, 2020**. (v1.2)
 
-Number of Tweets: **31,223,884**.
+Number of Tweets: **31,223,884**
+Number of Orignal Tweets: **6,387,896**
+Number of Re-Tweets: **24,835,988**
 
 Language Breakdown:
-
-
 | Language           | Number of Tweets | Percentage |
 |--------------------|------------------|------------|
 | English            |  17,997,610.00   | 58.16%     |
@@ -89,6 +89,26 @@ Language Breakdown:
 | Dutch; Flemish     |  90,278.00       | 0.29%      |
 | Arabic             |  51,144.00       | 0.17%      |
 | Others             |  338,825.00      | 1.10%      |
+
+
+Tweets Breakdown by Month:
+| Month | Total        |
+|-------|--------------|
+| Jan   |  724,877     |
+| Feb   |  3,084,728   |
+| Mar   |  27,414,279  |
+
+
+Tweets Breakdown by Search/Key word:
+| Keyword     | Total        |
+|-------------|--------------|
+| virus       |  10,858,550  |
+| coronavirus |  11,393,774  |
+| covid       |  8,827,088   |
+| ncov19      |  75,580      |
+| ncov2019    |  68,892      |
+
+
 
 ## Inquiries
 
