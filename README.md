@@ -67,7 +67,9 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 The following data is from Tweets colected until **31 March, 2020**. (v1.2)
 
 Number of Tweets: **31,223,884**
+
 Number of Orignal Tweets: **6,387,896**
+
 Number of Re-Tweets: **24,835,988**
 
 Language Breakdown:
