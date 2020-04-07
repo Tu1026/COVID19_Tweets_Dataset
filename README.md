@@ -64,13 +64,13 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 
 ## Data Statistics
 
-The following data is from Tweets colected until **31 March, 2020**. (v1.2)
+The following data is from Tweets colected until **01 April, 2020**. (v1.2)
 
-Number of Tweets: **31,223,884**
+Number of Tweets: **32,188,236**
 
-Number of Orignal Tweets: **6,387,896**
+Number of Orignal Tweets: **6,608,612**
 
-Number of Re-Tweets: **24,835,988**
+Number of Re-Tweets: **25,579,624**
 
 Language Breakdown:
 | Language           | Number of Tweets | Percentage |
