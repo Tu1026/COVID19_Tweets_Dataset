@@ -3,6 +3,8 @@ date Apr 01, 2020
 latestDay 01
 latestMonth April
 tweetsNumber 32188236
+originalTweetsNumber 6608612
+retweetsNumber 25579624
 tweetsNumberJan 724877
 tweetsNumberFeb 3084728
 tweetsNumberMar 27414279
