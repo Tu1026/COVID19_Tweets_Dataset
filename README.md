@@ -22,18 +22,30 @@ The tweet-IDs are organized by keywords as follows:
 
 
 ## Data Collection Process
+
 * Not all keywords were tracked from the very beginning. As news about the novel coronavirus spread, additional keywords were added to the search list. The keywords used for search tweets are: virus and coronavirus since 22 January, ncov19 and ncov2019 since 26 February, and covid since 7 March 2020. 
-* Only tweets in English were collected from 22 January to 31 January 2020, after this time the algorithm collected tweets in all languages. 
 * Since the Twitter API can provide tweets up to 7-days in the pass, there is a  lag of 7-days in the dataset to ensure as much tweets as possible are sampled.
 * Our dataset **does not** capture every single tweet on Twitter relating to the keywords as our data retrieval is restricted by the Twitter API at 45,000 tweets every 15 minutes.
-* You can notice that there are fewer tweets relating to the novel coronavirus present in our dataset in the first few weeks than in the following weeks. This can explained by the fact that our data collection involved tracking other keywords unrelated to the coronavirus during the first few weeks (other projects). This meant that the number of coronavirus-related tweets were limited at a fraction of the total API limit. Once unrelated keywords were removed from our search options, the limit of coronavirus-related tweets became the total API limit, hence resulting in more tweets in our dataset.
-* Our dataset is currently missing tweed-ID entries for Feb 06 and 07, 2020. This data was lost due to technical errors. However, tweet data was retained and hence our statistics were not affected by this loss of tweet-IDs. We currently are working on retrieving the lost tweet-ID data.
 * We currently have some descriptive statistics about our dataset displayed in the paper associated with it. We are working on automatically updating these statistics with every update of the dataset.
 * Consider using tools such as the [Hydrator](https://github.com/DocNow/hydrator) and [Twarc](https://github.com/DocNow/twarc) to rehydrate the tweet-IDs i.e. to fetch tweet data associated with the tweet-IDs using Twitter's API. 
 * Tweets deleted after our initial collection may still be present in our dataset, but their details can no longer be retrieved by using Twitter's API.
 * [Chen et al., 2020](#chen) has published a dataset, similar to ours, containing tweet-IDs relating to the novel coronavirus. For those looking for an even larger dataset than ours, merging the two datasets is a valid option.
 
+### Data Collection Process Inconsistencies
+* Only tweets in English were collected from 22 January to 31 January 2020, after this time the algorithm collected tweets in all languages. 
+* You can notice that there are fewer tweets relating to the novel coronavirus present in our dataset in the first few weeks than in the following weeks. This can explained by the fact that our data collection involved tracking other keywords unrelated to the coronavirus during the first few weeks (other projects). This meant that the number of coronavirus-related tweets were limited at a fraction of the total API limit. Once unrelated keywords were removed from our search options, the limit of coronavirus-related tweets became the total API limit, hence resulting in more tweets in our dataset.
+* Our dataset is currently missing tweed-ID entries for Feb 06 and 07, 2020. This data was lost due to technical errors. However, tweet data was retained and hence our statistics were not affected by this loss of tweet-IDs. We currently are working on retrieving the lost tweet-ID data.
+* Our dataset is currently missing tweed-ID entries for March 24th keywords: virus, coronavirus, covid, nvoc2019 (i.e., only ncov19 are present in the data set). This data was lost due to technical errors.
+
 ## Hydrating Tweets
+
+### Using our TWARC Notebook
+The  notebook [Automatically_Hydrate_TweetsIDs_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID190.ipynb) will allow you to automatically hydrate the tweets-ID from our [COVID19_Tweets_dataset GitHub repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
+
+You can run this notebook directly on the cloud using Google Colab [(see how to tutorials)]( https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc) and Google Drive.
+
+In order to hydrate the tweet-IDs using [TWARC](https://github.com/DocNow/twarc) you need to create a [Twitter Developer Account]( https://developer.twitter.com/en/apply-for-access).
+
 
 The Twitter API's rate limits pose an issue to fetch data from tweed-IDs. So, we recommended using Hydrator to convert the list of tweed-IDs, into a CSV file containing all data and meta-data relating to the tweets. Hydrator also manages Twitter API Rate Limits for you. 
 
@@ -52,32 +64,55 @@ Follow the instructions on the [Twarc github repository](https://github.com/DocN
 
 ## Data Statistics
 
-The following are as of **13 March, 2020**. (v1)
+The following data is from Tweets colected until **31 March, 2020**. (v1.2)
 
-Number of Tweets: **6,468,526**.
+Number of Tweets: **31,223,884**
+
+Number of Orignal Tweets: **6,387,896**
+
+Number of Re-Tweets: **24,835,988**
 
 Language Breakdown:
-| Language           | Percent of Tweets |
-| ------------------ | ----------------- |
-| English            | 63.45             |
-| Spanish            | 12.68             |
-| Portuguese         | 4.46              |
-| Bahasa             | 4.25              |
-| French             | 3.96              |
-| Italian            | 3.85              |
-| Thai               | 1.68              |
-| Japanese           | 1.35              |
-| German             | 0.78              |
-| Tagalog            | 0.72              |
-| Turkish            | 0.49              |
-| Catalan; Valencian | 0.39              |
-| Dutch; Flemish     | 0.32              |
-| Hindi              | 0.28              |
-| Chinese            | 0.24              |
-| Lithuanian         | 0.16              |
-| Korean             | 0.15              |
-| Arabic             | 0.11              |
-| Other              | 0.69              |
+| Language           | Number of Tweets | Percentage |
+|--------------------|------------------|------------|
+| English            |  17,997,610.00   | 58.16%     |
+| Spanish; Castilian |  5,155,080.00    | 16.66%     |
+| Portuguese         |  2,138,460.00    | 6.91%      |
+| Bahasa             |  1,612,387.00    | 5.21%      |
+| French             |  1,227,957.00    | 3.97%      |
+| Thai               |  606,585.00      | 1.96%      |
+| Italian            |  495,991.00      | 1.60%      |
+| Japanese           |  242,022.00      | 0.78%      |
+| Turkish            |  218,446.00      | 0.71%      |
+| Tagalog            |  208,131.00      | 0.67%      |
+| German             |  192,218.00      | 0.62%      |
+| Catalan; Valencian |  187,292.00      | 0.61%      |
+| Hindi              |  180,107.00      | 0.58%      |
+| Dutch; Flemish     |  90,278.00       | 0.29%      |
+| Arabic             |  51,144.00       | 0.17%      |
+| Others             |  338,825.00      | 1.10%      |
+
+
+Tweets Breakdown by Month:
+| Month | Total        |
+|-------|--------------|
+| Jan   |  724,877     |
+| Feb   |  3,084,728   |
+| Mar   |  27,414,279  |
+
+
+Tweets Breakdown by Search/Key word:
+| Keyword     | Total        |
+|-------------|--------------|
+| virus       |  10,858,550  |
+| coronavirus |  11,393,774  |
+| covid       |  8,827,088   |
+| ncov19      |  75,580      |
+| ncov2019    |  68,892      |
+
+
+![](Tweets%20Analysis/Tweets%20by%20Language.png)
+![](Tweets%20Analysis/GeoTweets.png)
 
 ## Inquiries
 
