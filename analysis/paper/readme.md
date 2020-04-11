@@ -196,7 +196,7 @@ Tweets By Language:
 
 <div class="figure">
 
-<img src="/Users/malolan/Documents/Research/Lopez/COVID19_Tweets_Dataset/analysis/paper/images/language.png" alt="Number of tweets a day by language." width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language.png" alt="Number of tweets a day by language." width="100%" />
 
 <p class="caption">
 
@@ -207,7 +207,7 @@ language.
 
 </div>
 
-<img src="/Users/malolan/Documents/Research/Lopez/COVID19_Tweets_Dataset/analysis/paper/images/geotweets.png" width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets.png" width="100%" />
 
 ## Inquiries
 
