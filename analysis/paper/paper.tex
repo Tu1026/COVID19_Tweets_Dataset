@@ -1,0 +1,192 @@
+
+% These are the instructions for authors for IJCAI-19.
+
+\documentclass{article}
+\pdfpagewidth=8.5in
+\pdfpageheight=11in
+% The file ijcai19.sty is NOT the same than previous years'
+\usepackage{ijcai19}
+
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[small]{caption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+% \usepackage{booktabs}
+\usepackage{hyperref}
+% \usepackage{float}
+\usepackage{dblfloatfix}
+\usepackage{array}
+\usepackage{csvsimple}
+\usepackage[group-separator={,}]{siunitx}
+\usepackage{siunitx}
+\setlength\extrarowheight{2.5pt}
+\def\UrlBreaks{\do\/\do-}
+\urlstyle{same}
+
+\newread\varsfile
+\def\assignvar#1 #2\relax{\expandafter\gdef\csname #1\endcsname{#2}}
+\openin\varsfile=data/variables.txt
+{\endlinechar=-1
+\loop
+\ifeof\varsfile\else
+\read\varsfile to \tmp
+\ifx\tmp\empty\else
+\expandafter\assignvar\tmp\relax
+\fi
+\repeat
+}
+\closein\varsfile
+
+\newcommand*{\twodec}[1]{\num[output-decimal-marker={.},
+                             round-mode=places,
+                             round-precision=2,
+                             group-digits=false]{#1}}
+
+% the following package is optional:
+\usepackage{latexsym} 
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+\title{UNDERSTANDING THE PERCEPTION OF COVID-19 POLICIES
+BY MINING A MULTILANGUAGE TWITTER DATASET}
+
+\author{
+Christian E. Lopez$^{1,2}$\footnote{Corresponding Author. 569 Rockwell Integrated Science Center, Lafayette College, Easton, PA 18042,
+lopezbec@lafayette.edu}\and
+Malolan Vasu$^1$\And
+Caleb Gallemore$^{3}$
+\affiliations{\footnotesize
+$^1$ Computer Science Department, Lafayette College, Easton, PA 18042\\
+$^2$ Mechanical Engineering Department, Lafayette College, Easton, PA 18042\\
+$^3$ International Affairs Program, Lafayette College, Easton, PA 18042\\
+}
+}
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    The objective of this work is to explore popular discourse about the COVID-19 pandemic and policies implemented to manage it. Using Natural Language Processing, Text Mining, and Network Analysis to analyze corpus of tweets that relate to the COVID-19 pandemic, we identify common responses to the pandemic and how these responses differ across time. Moreover, insights as to how information and misinformation were transmitted via Twitter, starting at the early stages of this pandemic, are presented. Finally, this work introduces a dataset of tweets collected from all over the world, in multiple languages, dating back to January 22nd, when the total cases of reported COVID19 were below 600 worldwide. The insights presented in this work could help inform decision makers in the face of future pandemics, and the dataset introduced can be used to acquire valuable knowledge to help mitigate the COVID-19 pandemic.
+
+    Link for dataset: \url{https://github.com/lopezbec/COVID19_Tweets_Dataset}
+\end{abstract}
+
+\section{Introduction}
+
+The Coronavirus Disease of 2019, known as COVID-19, is a rapidly spreading disease caused by the Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV2). The COVID-19 is now considered a pandemic that has affected countries in all inhabited continents. Since the first cases of COVID-19 reported in Wuhan, China, in December 2019, the number of fatalities worldwide has increased rapidly. Due to its high infection and death rate, governments have implemented a wide range of policies aimed at mitigating the spread of this virus and its impact. Such actions began with the Chinese government order to quarantine Wuhan on January 23rd, 2020, to, most recently, multiple countries declaring state of emergency and implementing strict quarantine and social distancing measurements (e.g., US, Italy, Argentina, Spain).
+
+Most government leaders have implemented measures to incentivize, and in some cases enforce, “social distancing” to reduce the spread of COVID-19. These measures have resulted in the cancelled entertainment events, closures of schools and colleges, and businesses reducing hours of operation, implement telecommuting, or close altogether. There is no doubt the pandemic and the measures set in place to mitigate it have and will continue to drastically impact the lives of millions. As this pandemic and the responses to it are unprecedented, however, we are likely to be surprised by how people respond.
+
+Since the early stages of the disease, people have expressed their opinion and shared information, as well as misinformation, about it via social media platforms, such as Twitter. As COVID-19 spreads to other countries and governments try to mitigate its impact by implementing counter measures, people have also used social media platforms to express their opinion about the measures themselves, the leaders implementing them, and the ways their lives are changing. The use of social media, such as Twitter, as platforms to express opinions and share information about COVID-19, will only continue to grow, precisely because of the “social distancing” measures set in place to mitigate it.
+
+Policymakers could mine this social media data to explore popular discourse about the pandemic and the measures set in place to mitigate it. We plan to analyze a corpus of tweets that relate to COVID-19 with the objective of identifying common responses to the pandemic and how these responses differ across time, countries, and policies. Moreover, insights as to how information and misinformation about this pandemic and the polices are transmitted are presented. Finally, we introduce and share with the research community a dataset of tweets collected from all over the world, in multiple languages, dating back to January 22nd when the total cases of reported COVID-19 were below 600 worldwide. Here, we describe and present descriptive statistics of this dataset, and explain our data collection
+methods and intended analyses.
+
+\section{Dataset Description}
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.85\textwidth]{images/language.png}
+    \caption{Collected tweets, by language, as of \date.}
+    \label{fig:1}
+\end{figure*}
+
+
+The dataset presented is being continuously collected using the Twitter API. The dataset presented here (\version) covers January 22, 2020 to \date\, and contains \num[group-separator={,}]{\tweetsNumber} tweets. The keywords used for search tweets are: \textit{virus} and \textit{coronavirus} since January 22, 2020, \textit{ncov19} and \textit{ncov2019} since February 26, 2020, and \textit{covid} since March 7, 2020.
+
+
+The average daily number of tweets collected on dataset \version\ was \num[group-separator={,}]{\dailyNumAvg} (SD=\num[group-separator={,}]{\dailyNumSD}, Mdn=\num[group-separator={,}]{\dailyNumMedian}). In the first few months, the number of tweets collected increased steadily from \num[group-separator={,}]{\tweetsNumberJan} in January and \num[group-separator={,}]{\tweetsNumberFeb} in February, \num[group-separator={,}]{\tweetsNumberMar} in March, to \num[group-separator={,}]{\tweetsNumberApr} in April. Table \ref{tab:daily-tweets} shows the summary statistics for the daily number of tweets collected each month and on the first \latestDay\ day(s) of \latestMonth.
+
+\begin{table}[!htbp]
+    \caption{Statistics on number of daily tweets per month}
+    \label{tab:daily-tweets}
+    \begin{tabular}{llll}
+        \bfseries Month & \bfseries Mean                    & \bfseries SD                    & \bfseries Median                    \\\hline
+        \csvreader[head to column names]{data/table1.csv}{}
+        {\Month         & \num[group-separator={,}]{\Mean } & \num[group-separator={,}]{\SD } & \num[group-separator={,}]{\Median } \\\hline}
+    \end{tabular}
+\end{table}
+
+
+While the dataset contains tweets from \languagesNumber\ languages, only English-language tweets were collected from 22 January to 30 January 2020. English-language tweets remain the most prominent in the dataset accounting for  \englishPercent\% of the total. Figure \ref{fig:1} presents the distribution of collected tweets by language.
+
+
+\begin{table}[!htbp]
+    \caption{Distribution of Tweets per Language}
+    \label{tab:language-tweets}
+    \begin{tabular}{lll}
+        \bfseries Language & \bfseries Number of Tweets            & \bfseries Percentage   \\ \hline
+        \csvreader[head to column names]{data/table2.csv}{}
+        {\csvcoli          & \num[group-separator={,}]{\csvcolii } & \twodec{\csvcoliii }\% \\\hline}
+    \end{tabular}
+\end{table}
+
+
+Information about retweets and likes was also collected. Figure \ref{fig:2} presents the distribution of collected tweets’ retweets over the observed period. While the overall level of retweeting appears to have declined in February, retweets rose abruptly as the crisis ramped up in Europe in late February and early March.
+\setcounter{figure}{2}
+
+\begin{figure*}[!b]
+    \centering
+    \includegraphics[width=0.88\textwidth]{images/geotweets.png}
+    % \setcounter{figure}{2}
+    \caption{Geolocated tweets as of \date.}
+    \label{fig:3}
+\end{figure*}
+
+\setcounter{figure}{1}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.3 \textwidth]{images/retweets.png}
+    \caption{Distribution of observed retweets, on a log10 scale, across the observed period.}
+    \label{fig:2}
+    % \setcounter{figure}{3}
+\end{figure}
+\setcounter{figure}{3}
+
+In addition to language, a relatively small percentage of the collected tweets contain geolocations. Figure 3 presents the locations observed as of \date. Table \ref{tab:summary} provides numerical summaries of
+the observed tweets number of retweets, likes and geolocation information.
+
+
+
+\begin{table}[!h]
+    \caption{Summary statistics for collected tweets}
+    \label{tab:summary}
+    \csvreader[tabular=ll,
+        no head,
+        late after line=\\\hline
+    ]{data/table3.csv}{}
+    {\csvcoli & \num[group-separator={,}]{\csvcolii}}
+\end{table}
+
+\section{Dataset Accessibility}
+
+The dataset \version\ was realized on \date. The dataset is available on Github at:  \url{https://github.com/lopezbec/COVID19_Tweets_Dataset}. The dataset is released in compliance with the Twitter’s Terms \& Conditions. Hence, only the tweets-IDs are made available to researchers. However, using the Twitter API the tweets can be “rehydrated” and the data of tweets that have not been deleted can be accessed (more details on the GitHub page). This dataset is still being continuously collected and routinely updated. If you have technical questions about the data collection, please contact the corresponding author.
+
+
+\section{Future Work}
+
+This research note’s main objective was to introduce and share with the research community a dataset of tweets related to the COVID-19. We are continuously collecting and routinely updating the dataset. Similarity, we will be using Natural Language Processing and Text Mining, and Network Analysis to analyze the corpus of tweets to identify common popular responses to the pandemic and how these responses differ across time. Moreover, with this dataset we will explore to how information and misinformation about COVID-19 is transmitted via Twitter.
+\end{document}
+

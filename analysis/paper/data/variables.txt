@@ -1,0 +1,14 @@
+version v1.2
+date Apr 01, 2020
+latestDay 01
+latestMonth April
+tweetsNumber 32188236
+tweetsNumberJan 724877
+tweetsNumberFeb 3084728
+tweetsNumberMar 27414279
+tweetsNumberApr 964352
+dailyNumAvg 453355.44
+dailyNumSD 701916.0
+dailyNumMedian 158335.0
+languagesNumber 63
+englishPercent 58.31
