@@ -194,20 +194,12 @@ Tweets By Language:
 | Dutch; Flemish     |            92431 |       0.29 |
 | Other              |           399174 |       1.25 |
 
-<div class="figure">
 
-<img src="/Users/malolan/Documents/Research/Lopez/COVID19_Tweets_Dataset/analysis/paper/images/language.png" alt="Number of tweets a day by language." width="100%" />
 
-<p class="caption">
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_01/Tweets%20by%20Language.png" alt="Number of tweets a day by language." width="100%" />
 
-Number of tweets a day by
-language.
-
-</p>
-
-</div>
-
-<img src="/Users/malolan/Documents/Research/Lopez/COVID19_Tweets_Dataset/analysis/paper/images/geotweets.png" width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_01/GeoTweets.png" 
+alt=" " width="100%" />
 
 ## Inquiries
 
