@@ -143,53 +143,53 @@ repository](https://github.com/DocNow/twarc).
 
 ## Data Statistics
 
-The following data is from Tweets colectled until **Apr 05, 2020**.
-(v1.3)
+The following data is from Tweets colectled until **Apr 09, 2020**.
+(v1.4)
 
-Number of Tweets: **40067960**
+Number of Tweets: **46316810**
 
-Number of Original Tweets: **8420420**
+Number of Original Tweets: **9897205**
 
-Number of Re-Tweets: **31647540**
+Number of Re-Tweets: **36419605**
 
 Tweets Breakdown by Month:
 
 | Month | Number.of.Tweets |
 | :---- | ---------------: |
 | Jan   |           724877 |
-| Feb   |          3084728 |
+| Feb   |          2994768 |
 | Mar   |         27414279 |
-| Apr   |          8844076 |
+| Apr   |         15182886 |
 
 Tweets Breakdown by Search/Keyword:
 
 | Keyword     | Number.of.Tweets |
 | :---------- | ---------------: |
-| coronavirus |         14352931 |
-| covid       |         11785171 |
-| ncov19      |            77597 |
-| ncov2019    |            72657 |
-| virus       |         13779604 |
+| coronavirus |         16380232 |
+| covid       |         13902474 |
+| ncov19      |            78553 |
+| ncov2019    |            77944 |
+| virus       |         15877607 |
 
 Tweets By Language:
 
 | Language           | Number.of.Tweets | Percentage |
 | :----------------- | ---------------: | ---------: |
-| English            |         23315199 |      58.74 |
-| Spanish; Castilian |          6662566 |      16.79 |
-| Portuguese         |          2648300 |       6.67 |
-| Bahasa             |          1938992 |       4.89 |
-| French             |          1554369 |       3.92 |
-| Thai               |           680075 |       1.71 |
-| Italian            |           591873 |       1.49 |
-| Japanese           |           350149 |       0.88 |
-| Turkish            |           291978 |       0.74 |
-| Tagalog            |           288697 |       0.73 |
-| Hindi              |           279104 |       0.70 |
-| Catalan; Valencian |           238538 |       0.60 |
-| German             |           235563 |       0.59 |
-| Dutch; Flemish     |           112906 |       0.28 |
-| Other              |           502355 |       1.27 |
+| English            |         27112871 |      59.10 |
+| Spanish; Castilian |          7735504 |      16.86 |
+| Portuguese         |          3041380 |       6.63 |
+| Bahasa             |          2138469 |       4.66 |
+| French             |          1786705 |       3.89 |
+| Thai               |           726074 |       1.58 |
+| Italian            |           659223 |       1.44 |
+| Japanese           |           418042 |       0.91 |
+| Hindi              |           342280 |       0.75 |
+| Turkish            |           332272 |       0.72 |
+| Tagalog            |           316924 |       0.69 |
+| Catalan; Valencian |           283172 |       0.62 |
+| German             |           267713 |       0.58 |
+| Dutch; Flemish     |           129232 |       0.28 |
+| Other              |           582921 |       1.27 |
 
 <div class="figure">
 

@@ -6,14 +6,14 @@ import datetime
 import csv
 # Currently the root of the git: COVID19_Tweets_Dataset. If not, make it the root of the git.
 print(os.getcwd())
-data_directory = "analysis/until_2020_04_05/"
+data_directory = "analysis/until_2020_04_09/"
 # Folder name is used to find date of analysis.
 # NOTE: IMPORANT: CODE ASSUMES THE STRUCTURE OF THE CSV FILES IS ALWAYS THE SAME
 # paper_directory is the location for the .tex files are, and the folders data/ and images/
 paper_directory = "analysis/paper/"
 keywords = ["coronavirus", "covid", "ncov19", "ncov2019", "virus"]
 number_of_languages = 14
-version = "v1.3"
+version = "v1.4"
 
 
 def setUpTexVariables():

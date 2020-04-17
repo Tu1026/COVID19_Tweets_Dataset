@@ -1,16 +1,16 @@
-version v1.3
-date Apr 05, 2020
-latestDay 05
+version v1.4
+date Apr 09, 2020
+latestDay 09
 latestMonth April
-tweetsNumber 40067960
-originalTweetsNumber 8420420
-retweetsNumber 31647540
+tweetsNumber 46316810
+originalTweetsNumber 9897205
+retweetsNumber 36419605
 tweetsNumberJan 724877
-tweetsNumberFeb 3084728
+tweetsNumberFeb 2994768
 tweetsNumberMar 27414279
-tweetsNumberApr 8844076
-dailyNumAvg 534239.47
-dailyNumSD 764426.85
-dailyNumMedian 159813.0
+tweetsNumberApr 15182886
+dailyNumAvg 586288.73
+dailyNumSD 789486.72
+dailyNumMedian 161833.0
 languagesNumber 63
-englishPercent 58.74
+englishPercent 59.1
