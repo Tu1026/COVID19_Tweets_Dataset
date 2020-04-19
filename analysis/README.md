@@ -7,3 +7,9 @@ This file contains a table that shows the mean (M), standard deviation (SD), med
 -	In the Month column, you will find a tag for each of the months contained on the datasets plus a tag “All_M” (i.e., all months), that show the aggregated statistics for all the months. 
 -	In the “Type” columns, there are three tags: “All” (for all tweets”, “Org” (for original tweets”, “RT” (for re-tweets).
 Lastly, there is a “NoDays” column that show the total number of days of tweets collected.
+### SummaryTable.csv 
+This file show summary statistics (total number, maximum, median, 25th percentile) for the GeoLocated, Likes and Retweets information.
+
+### TweetLanguages.csv
+This file contains information about the languages o the tweets collected organized in descending order. It contain 3 columns: Language (V1), Total number of tweets in that language (Freq), and percentage (Percentage). 
+
