@@ -191,8 +191,14 @@ Tweets By Language:
 | Others             | 1014154          | 1.57%      |
 
 
+<div class="figure">
 
-<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets.png" width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/coronavirus/GeoTweets.png" alt="Geo Located Tweets: Coronavirus" width="100%" />
+
+<p class="caption">
+Geo Located Tweets: Coronavirus
+
+
 
 ## Inquiries
 
