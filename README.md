@@ -89,6 +89,9 @@ The tweet-IDs are organized by keywords as follows:
     keywords: virus, coronavirus, covid, nvoc2019 (i.e., only ncov19 are
     present in the data set). This data was lost due to technical
     errors.
+  - Our dataset is currently missing tweed-ID entries for April 18th
+    keywords:nvoc2019. This data was lost due to technical
+    errors
 
 ## Hydrating Tweets
 
