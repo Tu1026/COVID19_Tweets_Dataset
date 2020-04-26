@@ -191,7 +191,6 @@ Tweets By Language:
 | Others             | 1014154          | 1.57%      |
 
 
-</div>
 
 <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets.png" width="100%" />
 
