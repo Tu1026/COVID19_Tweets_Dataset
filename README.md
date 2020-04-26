@@ -195,35 +195,35 @@ Tweets By Language:
 ---
  <figure>
   <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/coronavirus/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption>Geo Located Tweets: Coronavirus</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 #### Geo Located Tweets: Covid
 ---
  <figure>
   <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/covid/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption>Geo Located Tweets: Coronavirus</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 #### Geo Located Tweets: Virus
 ---
  <figure>
   <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/virus/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption>Geo Located Tweets: Coronavirus</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 #### Geo Located Tweets: NCOV19
 ---
  <figure>
   <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/ncov19/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption>Geo Located Tweets: Coronavirus</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 #### Geo Located Tweets: NCOV2019
 ---
  <figure>
   <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/ncov2019/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption>Geo Located Tweets: Coronavirus</figcaption>
+  <figcaption></figcaption>
 </figure> 
 
 
