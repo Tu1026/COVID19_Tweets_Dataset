@@ -143,64 +143,53 @@ repository](https://github.com/DocNow/twarc).
 
 ## Data Statistics
 
-The following data is from Tweets colectled until **Apr 09, 2020**.
-(v1.4)
+The following data is from Tweets colectled until **Apr 18, 2020**.
+(v1.5)
 
-Number of Tweets: **46316810**
+Number of Tweets: **65,388,324**
 
-Number of Original Tweets: **9897205**
+Number of Original Tweets: **14,597,888**
 
-Number of Re-Tweets: **36419605**
+Number of Re-Tweets: **50,790,436**
 
 Tweets Breakdown by Month:
 
 | Month | Number.of.Tweets |
 | :---- | ---------------: |
-| Jan   |           724877 |
-| Feb   |          2994768 |
-| Mar   |         27414279 |
-| Apr   |         15182886 |
+| Jan   |           24,877 |
+| Feb   |        2,994,768 |
+| Mar   |       27,414,279 |
+| Apr   |       34,254,400 |
 
 Tweets Breakdown by Search/Keyword:
 
 | Keyword     | Number.of.Tweets |
 | :---------- | ---------------: |
-| coronavirus |         16380232 |
-| covid       |         13902474 |
-| ncov19      |            78553 |
-| ncov2019    |            77944 |
-| virus       |         15877607 |
+| coronavirus |       22,823,353 |
+| covid       |       20,342,766 |
+| ncov19      |           79,935 |
+| ncov2019    |           82,870 |
+| virus       |       22,059,400 |
 
 Tweets By Language:
 
 | Language           | Number.of.Tweets | Percentage |
-| :----------------- | ---------------: | ---------: |
-| English            |         27112871 |      59.10 |
-| Spanish; Castilian |          7735504 |      16.86 |
-| Portuguese         |          3041380 |       6.63 |
-| Bahasa             |          2138469 |       4.66 |
-| French             |          1786705 |       3.89 |
-| Thai               |           726074 |       1.58 |
-| Italian            |           659223 |       1.44 |
-| Japanese           |           418042 |       0.91 |
-| Hindi              |           342280 |       0.75 |
-| Turkish            |           332272 |       0.72 |
-| Tagalog            |           316924 |       0.69 |
-| Catalan; Valencian |           283172 |       0.62 |
-| German             |           267713 |       0.58 |
-| Dutch; Flemish     |           129232 |       0.28 |
-| Other              |           582921 |       1.27 |
+|--------------------|------------------|------------|
+| English            | 38455759         | 59.41%     |
+| Spanish; Castilian | 11203759         | 17.31%     |
+| Portuguese         | 4309676          | 6.66%      |
+| Bahasa             | 2684019          | 4.15%      |
+| French             | 2514900          | 3.89%      |
+| Italian            | 880907           | 1.36%      |
+| Thai               | 829668           | 1.28%      |
+| Japanese           | 663834           | 1.03%      |
+| Hindi              | 535609           | 0.83%      |
+| Turkish            | 483823           | 0.75%      |
+| Catalan; Valencian | 401929           | 0.62%      |
+| Tagalog            | 383925           | 0.59%      |
+| German             | 371524           | 0.57%      |
+| Others             | 1014154          | 1.57%      |
 
-<div class="figure">
-
-<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language.png" alt="Number of tweets a day by language." width="100%" />
-
-<p class="caption">
-
-Number of tweets a day by
-language.
-
-</p>
 
 </div>
 
