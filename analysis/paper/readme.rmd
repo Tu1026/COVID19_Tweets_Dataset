@@ -118,13 +118,15 @@ languages = read.csv(here("analysis", "paper", "data", "table2.csv"))
 kable(languages)
 ```
 
-```{r pressure, echo=FALSE, out.width = '100%',fig.cap="Number of tweets a day by language."}
-knitr::include_graphics('https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language.png')
+```{r pressure, echo=FALSE, out.width = '100%',fig.cap="Number of tweets a day by language for the keyword 'coronavirus'."}
+knitr::include_graphics('https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language_coronavirus.png')
 ```
-```{r, echo=FALSE, out.width = '100%'}
-knitr::include_graphics('https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets.png')
+```{r, echo=FALSE, out.width = '100%', fig.cap="Geolocated tweets for the keyword 'coronavirus'"}
+knitr::include_graphics('https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets_coronavirus.png')
 ```
-
+```{r, echo=FALSE, out.width = '100%', fig.cap="Average sentiment of tweets for the observation period grouped by keyword."}
+knitr::include_graphics('https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/sentiment.png')
+```
 ## Inquiries
 
 For questions about the dataset, please contact Dr. Christian Lopez at **lopezbec@lafayette.edu**, Dr. Caleb Gallemore at **gallemoc@lafayette.edu**, or Malolan Vasu at **vasum@lafayette.edu**. 

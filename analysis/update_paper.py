@@ -6,14 +6,14 @@ import datetime
 import csv
 # Currently the root of the git: COVID19_Tweets_Dataset. If not, make it the root of the git.
 print(os.getcwd())
-data_directory = "analysis/until_2020_04_09/"
+data_directory = "analysis/until_2020_04_18/"
 # Folder name is used to find date of analysis.
 # NOTE: IMPORANT: CODE ASSUMES THE STRUCTURE OF THE CSV FILES IS ALWAYS THE SAME
 # paper_directory is the location for the .tex files are, and the folders data/ and images/
 paper_directory = "analysis/paper/"
 keywords = ["coronavirus", "covid", "ncov19", "ncov2019", "virus"]
 number_of_languages = 14
-version = "v1.4"
+version = "v1.5"
 
 
 def setUpTexVariables():
@@ -23,6 +23,7 @@ def setUpTexVariables():
     Returns:
         dict -- variables for LaTeX
     """
+    print("Setting up TeX variables.")
     tex_variables = {}
     tex_variables["version"] = version
     # Gets latest date from folder name.
@@ -45,11 +46,16 @@ def cleanTable1(tex_variables):
 
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
+    TODO: Fix median
     """
+    print("Creating Table 1.")
     table1 = pd.read_csv(
         data_directory + "Tweets_Number_by_Month.csv", engine='python')
-    table1.drop(table1.columns[0], axis=1, inplace=True)
-    table1 = table1.rename(columns={"M": "Mean",  "Mdn": "Median"})
+    # table1.drop(table1.columns[0], axis=1, inplace=True)
+    # table1 = table1.rename(columns={"M": "Mean", "Mdn": "Median"})
+
+    table1 = table1.rename(columns={"M": "Mean"})
+    table1["Median"] = 0
     table1 = table1.round(2)
 
     # Store data for all the months
@@ -68,10 +74,12 @@ def cleanTable1(tex_variables):
                           table1["Month"][i]] = table1["Total"][i]
     tex_variables["dailyNumAvg"] = table1["Mean"][0]
     tex_variables["dailyNumSD"] = table1["SD"][0]
-    tex_variables["dailyNumMedian"] = table1["Median"][0]
+    tex_variables["dailyNumMedian"] = table1["Median"]
+    tex_variables["dailyNumMedian"] = 0
     table1 = table1.drop([0])
     table1 = table1.drop(["Total", "Type", "NoDays"], axis=1)
     table1.to_csv(paper_directory + "data/table1.csv", index=False, na_rep="0")
+    print("Created Table 1.")
 
 
 def cleanTable2(tex_variables):
@@ -84,6 +92,7 @@ def cleanTable2(tex_variables):
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
     """
+    print("Creating Table 2.")
     table2 = pd.read_csv(
         data_directory + "TweetLanguages.csv", engine="python")
     table2 = table2.rename(
@@ -100,6 +109,7 @@ def cleanTable2(tex_variables):
     finalTable2 = finalTable2.round(2)
     finalTable2.to_csv(paper_directory + "data/table2.csv",
                        index=False, na_rep="0")
+    print("Created Table 2.")
 
 
 def cleanTable3(tex_variables):
@@ -112,12 +122,14 @@ def cleanTable3(tex_variables):
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
     """
+    print("Creating Table 3.")
     table3 = pd.read_csv(data_directory + "SummaryTable.csv")
     table3["V1"] = table3["V1"].str.replace(":", "")
     # Change the row range to select other stats to display
-    table3 = table3.loc[2:len(table3) - 4]
+    table3 = table3.loc[2:]
     table3.to_csv(paper_directory
                   + "data/table3.csv", header=False, index=False, na_rep="0")
+    print("Created Table 3.")
 
 
 def writeTexVariables(tex_variables):
@@ -126,6 +138,7 @@ def writeTexVariables(tex_variables):
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
     """
+    print("Writing Tex Variables.")
     with open(paper_directory + "data/variables.txt", "w+") as f:
         for key in tex_variables:
             f.write(key + " " + str(tex_variables[key]) + "\n")
@@ -135,20 +148,30 @@ def copyFigures():
     """
     Copies figures from the data_directory to paper_directory/images/
     Figures copied from:
-        analysis/until_[date]/Tweets by Language.png
-        analysis/until_[date]/Retweets.png
-        analysis/until_[date]/GeoTweets.png
+        analysis/until_[date]/[keyword]/Tweets by Language.png
+        analysis/until_[date]/[keyword]/Retweets.png
+        analysis/until_[date]/[keyword]/GeoTweets.png
+        analysis/until_[date]/[keyword]/MentionsByDay.png
+        analysis/until_[date]/[keyword]/HashtagsByDay.png
+        TODO: analysis/until_[date]/SentimentByDay.png
     Figures pasted in:
-        analysis/paper/images/language.png
-        analysis/paper/images/retweets.png
-        analysis/paper/images/geotweets.png
+        analysis/paper/images/language_[keyword].png
+        analysis/paper/images/retweets_[keyword].png
+        analysis/paper/images/geotweets_[keyword].png
     """
-    copyfile(data_directory + "Tweets by Language.png",
-             paper_directory + "images/language.png")
-    copyfile(data_directory + "Retweets.png",
-             paper_directory + "images/retweets.png")
-    copyfile(data_directory + "Geotweets.png",
-             paper_directory + "images/geotweets.png")
+    print("Copying images.")
+    copyfile(data_directory + "coronavirus/Tweets by Language.png",
+             paper_directory + "images/language_coronavirus.png")
+    copyfile(data_directory + "coronavirus/Retweets.png",
+             paper_directory + "images/retweets_coronavirus.png")
+    copyfile(data_directory + "coronavirus/HashtagsByDay.png",
+             paper_directory + "images/hashtags_coronavirus.png")
+    copyfile(data_directory + "coronavirus/MentionsByDay.png",
+             paper_directory + "images/mentions_coronavirus.png")
+    copyfile(data_directory + "coronavirus/Geotweets.png",
+             paper_directory + "images/geotweets_coronavirus.png")
+    # copyfile(data_directory + "SentimentByDay.png",
+    #          paper_directory + "images/sentiment.png")
 
 
 def cleanTable4(tex_variables):
@@ -160,10 +183,11 @@ def cleanTable4(tex_variables):
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
     """
+    print("Creating Table 4.")
     table4 = pd.read_csv(
         data_directory + "Tweets_Number_by_Month.csv", engine='python')
-    table4.drop(table4.columns[0], axis=1, inplace=True)
-    table4 = table4.rename(columns={"M": "Mean",  "Mdn": "Median"})
+    # table4.drop(table4.columns[0], axis=1, inplace=True)
+    table4 = table4.rename(columns={"M": "Mean"})
     table4 = table4.round(2)
 
     # Now alter df to store as table1.csv
@@ -177,26 +201,32 @@ def cleanTable4(tex_variables):
 
     table4output.to_csv(paper_directory + "data/table4.csv",
                         index=False, na_rep="0")
+    print("Created Table 4.")
 
 
 def cleanTable5(tex_variables):
     """Creates a tweets breakdown by search keyword table for readme.md
 
-    Reads the files analysis/until_[date]/[keyword]_Tweets_Number_by_Month.csv
+    Reads the files analysis/until_[date]/[keyword]/Tweets_Number_by_Month.csv
     Writes to file analysis/paper/data/table5.csv
 
     Arguments:
         tex_variables {string: string} -- Stored in variables.txt. paper.tex loads all these variables so that they can be accessed just like any regular latex command.
     """
+    print("Creating Table 5.")
     table5 = pd.DataFrame(
         {"Keyword": keywords, "Number of Tweets": [0 for i in keywords]})
     for i in range(len(keywords)):
         keyword_df = pd.read_csv(
-            data_directory+keywords[i]+"_Tweets_Number_by_Month.csv", engine='python')
+            data_directory+keywords[i]+"/Tweets_Number_by_Month.csv", engine='python')
         table5["Number of Tweets"][i] = keyword_df["Total"][0]
-
+    totalSum = sum(table5["Number of Tweets"])
+    table5["Percentage"] = (table5["Number of Tweets"]/totalSum)*100
+    table5 = table5.round(2)
+    table5 = table5.sort_values("Number of Tweets", ascending=False)
     table5.to_csv(paper_directory + "data/table5.csv",
                   index=False, na_rep="0")
+    print("Created Table 5.")
 
 
 def main():
@@ -233,6 +263,8 @@ def main():
 
     os.chdir(os.path.dirname(paper_directory))
     os.system("pdflatex paper.tex")
+    os.system("pdflatex paper.tex")
+    print("Completed all tasks.")
 
 
 if __name__ == "__main__":

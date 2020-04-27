@@ -105,20 +105,34 @@ Policymakers could mine this social media data to explore popular discourse abou
 methods and intended analyses.
 
 \section{Dataset Description}
+
+
 \begin{figure*}[!b]
     \centering
-    \includegraphics[width=0.85\textwidth]{images/language.png}
-    \caption{Collected tweets, by language, as of \date.}
-    \label{fig:1}
+    \includegraphics[width=0.8\textwidth]{images/language_coronavirus.png}
+    \caption{Collected tweets, by language, for the keyword \textit{coronavirus}.}
+    \label{fig:language-coronavirus}
 \end{figure*}
 
-
-The dataset presented is being continuously collected using the Twitter API. The dataset presented here (\version) covers Jan 22, 2020 to \date\, and contains \num[group-separator={,}]{\tweetsNumber} tweets. The keywords used for search tweets are: \textit{virus} and \textit{coronavirus} since January 22, 2020, \textit{ncov19} and \textit{ncov2019} since February 26, 2020, and \textit{covid} since March 7, 2020.
+The dataset presented is being continuously collected using the Twitter API. The dataset presented here (\version) covers Jan 22, 2020 to \date\, and contains \num[group-separator={,}]{\tweetsNumber} tweets. The keywords used for search tweets are: \textit{virus} and \textit{coronavirus} since January 22, 2020, \textit{ncov19} and \textit{ncov2019} since February 26, 2020, and \textit{covid} since March 7, 2020. The number of tweets collected for each keyword is presented in Table \ref{tab:keyword-tweets}.
 
 
 The average daily number of tweets collected on dataset \version\ was \num[group-separator={,}]{\dailyNumAvg} (SD=\num[group-separator={,}]{\dailyNumSD}, Mdn=\num[group-separator={,}]{\dailyNumMedian}). In the first few months, the number of tweets collected increased steadily from \num[group-separator={,}]{\tweetsNumberJan} in January and \num[group-separator={,}]{\tweetsNumberFeb} in February, \num[group-separator={,}]{\tweetsNumberMar} in March, to \num[group-separator={,}]{\tweetsNumberApr} in April. Table \ref{tab:daily-tweets} shows the summary statistics for the daily number of tweets collected each month and on the first \latestDay\ day(s) of \latestMonth.
 
-\begin{table}[!htbp]
+
+\begin{table}[h]
+    \caption{Breakdown by keyword}
+    \label{tab:keyword-tweets}
+    \centering
+    \begin{tabular}{lll}
+        \bfseries Keyword & \bfseries Number of Tweets            & \bfseries Percentage   \\\hline
+        \csvreader[head to column names]{data/table5.csv}{}
+        {\csvcoli         & \num[group-separator={,}]{\csvcolii } & \twodec{\csvcoliii }\% \\\hline}
+    \end{tabular}
+\end{table}
+
+
+\begin{table}[h]
     \caption{Statistics on number of daily tweets per month}
     \label{tab:daily-tweets}
     \begin{tabular}{llll}
@@ -128,11 +142,7 @@ The average daily number of tweets collected on dataset \version\ was \num[group
     \end{tabular}
 \end{table}
 
-
-While the dataset contains tweets from \languagesNumber\ languages, only English-language tweets were collected from 22 January to 30 January 2020. English-language tweets remain the most prominent in the dataset accounting for  \englishPercent\% of the total. Figure \ref{fig:1} presents the distribution of collected tweets by language.
-
-
-\begin{table}[!htbp]
+\begin{table}[t]
     \caption{Distribution of Tweets per Language}
     \label{tab:language-tweets}
     \begin{tabular}{lll}
@@ -143,30 +153,50 @@ While the dataset contains tweets from \languagesNumber\ languages, only English
 \end{table}
 
 
-Information about retweets and likes was also collected. Figure \ref{fig:2} presents the distribution of collected tweets’ retweets over the observed period. While the overall level of retweeting appears to have declined in February, retweets rose abruptly as the crisis ramped up in Europe in late February and early March.
-\setcounter{figure}{2}
+While the dataset contains tweets from \languagesNumber\ languages, only English-language tweets were collected from 22 January to 30 January 2020. English-language tweets remain the most prominent in the dataset accounting for  \englishPercent\% of the total. Figure \ref{fig:language-coronavirus} present the distribution of collected tweets by language for the keyword \textit{coronavirus}.
 
-\begin{figure*}[!b]
-    \centering
-    \includegraphics[width=0.88\textwidth]{images/geotweets.png}
-    % \setcounter{figure}{2}
-    \caption{Geolocated tweets as of \date.}
-    \label{fig:3}
-\end{figure*}
 
-\setcounter{figure}{1}
+
+
+
+A basic sentiment analysis was performed on the dataset using a bag of words approach, where an existing sentiment lexicon  was used to look up sentiment values for each individual word of a pre-processed tweet.  Figure \ref{fig:sentiment} presents the average sentiment for tweets over the observation period, grouped by keyword.
+
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=0.37 \textwidth]{images/retweets.png}
-    \caption{Distribution of observed retweets, on a log10 scale, across the observed period.}
-    \label{fig:2}
+    \includegraphics[width=0.4\textwidth]{images/sentiment.png}
+    \caption{Average sentiment of tweets by keyword.}
+    \label{fig:sentiment}
+\end{figure}
+
+
+Information about retweets and likes was also collected. Figure \ref{fig:retweets-coronavirus} presents the distribution of collected tweets’ average number of retweets over the observation period for the keyword \textit{coronavirus}. While the overall level of retweeting appears to have declined in February, retweets rose abruptly as the crisis ramped up in Europe in late February and early March. Since mid-March however, the overall level of retweeting seems to be on a gradual decline.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.33 \textwidth]{images/retweets_coronavirus.png}
+    \caption{Distribution of retweet numbers, on a log10 scale, for the keyword \textit{coronavirus}.}
+    \label{fig:retweets-coronavirus}
     % \setcounter{figure}{3}
 \end{figure}
-\setcounter{figure}{3}
 
-In addition to language, a relatively small percentage of the collected tweets contain geolocations. Figure 3 presents the locations observed as of \date. Table \ref{tab:summary} provides numerical summaries of
-the observed tweets number of retweets, likes and geolocation information.
+Only a relatively small percentage of the collected tweets contain geolocations. Figure \ref{fig:geotweets-coronavirus}  presents the locations observed as of \date\ for the keyword \textit{coronavirus} . Figures \ref{fig:hashtags-coronavirus} and \ref{fig:mentions-coronavirus} present information about the number of hashtags and mentions used on average in a tweet by day for the keyword \textit{coronavirus} respectively. It is apparent that the tweets, disregarding the outliers, generally use very few mentions and hashtags. Table \ref{tab:summary} provides numerical summaries of
+the observed tweets number of retweets, likes, mentions, hashtags, and geolocation information.
+
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.35 \textwidth]{images/hashtags_coronavirus.png}
+    \caption{Distribution of the average number of hashtags for each tweet, on a log10 scale, for the keyword \textit{coronavirus}.}
+    \label{fig:hashtags-coronavirus}
+\end{figure}
+
+\begin{figure}[!b]
+    \centering
+    \includegraphics[width=0.35 \textwidth]{images/mentions_coronavirus.png}
+    \caption{Distribution of the average number of mentions for each tweet, on a log10 scale, for the keyword \textit{coronavirus}.}
+    \label{fig:mentions-coronavirus}
+\end{figure}
 
 
 
@@ -180,6 +210,13 @@ the observed tweets number of retweets, likes and geolocation information.
     {\csvcoli & \num[group-separator={,}]{\csvcolii}}
 \end{table}
 
+
+\begin{figure*}[!t]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/geotweets_coronavirus.png}
+    \caption{Geolocated tweets as of \date\ for the keyword \textit{coronavirus}.}
+    \label{fig:geotweets-coronavirus}
+\end{figure*}
 \section{Dataset Accessibility}
 
 The dataset \version\ was realized on \date. The dataset is available on Github at:  \url{https://github.com/lopezbec/COVID19_Tweets_Dataset}. The dataset is released in compliance with the Twitter’s Terms \& Conditions. Hence, only the tweets-IDs are made available to researchers. However, using the Twitter API the tweets can be “rehydrated” and the data of tweets that have not been deleted can be accessed (more details on the GitHub page). This dataset is still being continuously collected and routinely updated. If you have technical questions about the data collection, please contact the corresponding author.
@@ -189,4 +226,3 @@ The dataset \version\ was realized on \date. The dataset is available on Github 
 
 This research note’s main objective was to introduce and share with the research community a dataset of tweets related to the COVID-19. We are continuously collecting and routinely updating the dataset. Similarity, we will be using Natural Language Processing and Text Mining, and Network Analysis to analyze the corpus of tweets to identify common popular responses to the pandemic and how these responses differ across time. Moreover, with this dataset we will explore to how information and misinformation about COVID-19 is transmitted via Twitter.
 \end{document}
-
