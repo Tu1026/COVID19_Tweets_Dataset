@@ -89,9 +89,6 @@ The tweet-IDs are organized by keywords as follows:
     keywords: virus, coronavirus, covid, nvoc2019 (i.e., only ncov19 are
     present in the data set). This data was lost due to technical
     errors.
-  - Our dataset is currently missing tweed-ID entries for April 18th
-    keywords:nvoc2019. This data was lost due to technical
-    errors
 
 ## Hydrating Tweets
 
@@ -149,87 +146,89 @@ repository](https://github.com/DocNow/twarc).
 The following data is from Tweets colectled until **Apr 18, 2020**.
 (v1.5)
 
-Number of Tweets: **65,388,324**
+Number of Tweets: **65388324**
 
-Number of Original Tweets: **14,597,888**
+Number of Original Tweets: **14597888**
 
-Number of Re-Tweets: **50,790,436**
+Number of Re-Tweets: **50790436**
 
 Tweets Breakdown by Month:
 
 | Month | Number.of.Tweets |
 | :---- | ---------------: |
-| Jan   |           24,877 |
-| Feb   |        2,994,768 |
-| Mar   |       27,414,279 |
-| Apr   |       34,254,400 |
+| Jan   |           724877 |
+| Feb   |          2994768 |
+| Mar   |         27414279 |
+| Apr   |         34254400 |
 
 Tweets Breakdown by Search/Keyword:
 
-| Keyword     | Number.of.Tweets |
-| :---------- | ---------------: |
-| coronavirus |       22,823,353 |
-| covid       |       20,342,766 |
-| ncov19      |           79,935 |
-| ncov2019    |           82,870 |
-| virus       |       22,059,400 |
+| Keyword     | Number.of.Tweets | Percentage |
+| :---------- | ---------------: | ---------: |
+| coronavirus |         22823353 |      34.90 |
+| virus       |         22059400 |      33.74 |
+| covid       |         20342766 |      31.11 |
+| ncov2019    |            82870 |       0.13 |
+| ncov19      |            79935 |       0.12 |
 
 Tweets By Language:
 
 | Language           | Number.of.Tweets | Percentage |
-|--------------------|------------------|------------|
-| English            | 38455759         | 59.41%     |
-| Spanish; Castilian | 11203759         | 17.31%     |
-| Portuguese         | 4309676          | 6.66%      |
-| Bahasa             | 2684019          | 4.15%      |
-| French             | 2514900          | 3.89%      |
-| Italian            | 880907           | 1.36%      |
-| Thai               | 829668           | 1.28%      |
-| Japanese           | 663834           | 1.03%      |
-| Hindi              | 535609           | 0.83%      |
-| Turkish            | 483823           | 0.75%      |
-| Catalan; Valencian | 401929           | 0.62%      |
-| Tagalog            | 383925           | 0.59%      |
-| German             | 371524           | 0.57%      |
-| Others             | 1014154          | 1.57%      |
+| :----------------- | ---------------: | ---------: |
+| English            |         38455759 |      59.41 |
+| Spanish; Castilian |         11203759 |      17.31 |
+| Portuguese         |          4309676 |       6.66 |
+| Bahasa             |          2684019 |       4.15 |
+| French             |          2514900 |       3.89 |
+| Italian            |           880907 |       1.36 |
+| Thai               |           829668 |       1.28 |
+| Japanese           |           663834 |       1.03 |
+| Hindi              |           535609 |       0.83 |
+| Turkish            |           483823 |       0.75 |
+| Catalan; Valencian |           401929 |       0.62 |
+| Tagalog            |           383925 |       0.59 |
+| German             |           371524 |       0.57 |
+| Dutch; Flemish     |           182799 |       0.28 |
+| Other              |           831355 |       1.28 |
 
+<div class="figure">
 
-#### Geo Located Tweets: Coronavirus
----
- <figure>
-  <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/coronavirus/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption></figcaption>
-</figure> 
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language_coronavirus.png" alt="Number of tweets a day by language for the keyword 'coronavirus'." width="100%" />
 
-#### Geo Located Tweets: Covid
----
- <figure>
-  <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/covid/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption></figcaption>
-</figure> 
+<p class="caption">
 
-#### Geo Located Tweets: Virus
----
- <figure>
-  <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/virus/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption></figcaption>
-</figure> 
+Number of tweets a day by language for the keyword
+‘coronavirus’.
 
-#### Geo Located Tweets: NCOV19
----
- <figure>
-  <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/ncov19/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption></figcaption>
-</figure> 
+</p>
 
-#### Geo Located Tweets: NCOV2019
----
- <figure>
-  <img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020_04_18/ncov2019/GeoTweets.png" alt="Trulli" style="width:100%">
-  <figcaption></figcaption>
-</figure> 
+</div>
 
+<div class="figure">
 
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets_coronavirus.png" alt="Geolocated tweets for the keyword 'coronavirus'" width="100%" />
+
+<p class="caption">
+
+Geolocated tweets for the keyword
+‘coronavirus’
+
+</p>
+
+</div>
+
+<div class="figure">
+
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/sentiment.png" alt="Average sentiment of tweets for the observation period grouped by keyword." width="100%" />
+
+<p class="caption">
+
+Average sentiment of tweets for the observation period grouped by
+keyword.
+
+</p>
+
+</div>
 
 ## Inquiries
 
