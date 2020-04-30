@@ -31,9 +31,13 @@ The tweet-IDs are organized by keywords as follows:
     convention of : `[Keyword]_yyyy_mm_dd.txt` (e.g.,
     `coronavirus_2020_01_22.txt` contains the ids of tweets mentioning
     the keyword ‘coronavirus’ tweeted on January 22th, 2020).
-
+    
+  - The Tweets_ID_by_language folder contains a series of `.txt` files with the date of the tweets, the tweets ID, and the  language organized by keyword and by moth.  The file names follow the naming convention of : ` TweetsID_by_language_[Month]_[Keyword].txt` (e.g., `coronavirus`>`Apr`>`TweetsID_by_language_Apr_coronavirus`, contains tweets id, their date and language from all the tweets collected on April about the keyword coronavirus).
+  
   - Since the Twitter API returns tweets in UTC, all tweet-ID folder and
     file names are all in UTC as well.
+    
+    
 
 ## Data Collection Process
 
