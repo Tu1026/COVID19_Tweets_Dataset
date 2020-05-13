@@ -190,7 +190,7 @@ Tweets By Language:
 
 <div class="figure">
 
-<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/language_coronavirus.png" alt="Number of tweets a day by language for the keyword 'coronavirus'." width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020__05_04/coronavirus/Tweets%20by%20Language.png" alt="Number of tweets a day by language for the keyword 'coronavirus'." width="100%" />
 
 <p class="caption">
 
@@ -203,7 +203,7 @@ Number of tweets a day by language for the keyword
 
 <div class="figure">
 
-<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/geotweets_coronavirus.png" alt="Geolocated tweets for the keyword 'coronavirus'" width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020__05_04/coronavirus/GeoTweets.png" alt="Geolocated tweets for the keyword 'coronavirus'" width="100%" />
 
 <p class="caption">
 
@@ -216,12 +216,11 @@ Geolocated tweets for the keyword
 
 <div class="figure">
 
-<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/paper/images/sentiment.png" alt="Average sentiment of tweets for the observation period grouped by keyword." width="100%" />
+<img src="https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/analysis/until_2020__05_04/coronavirus/Sentiment.png" alt="Average sentiment of tweets for the observation period grouped by keyword." width="100%" />
 
 <p class="caption">
 
-Average sentiment of tweets for the observation period grouped by
-keyword.
+Sentiment of tweets.
 
 </p>
 
