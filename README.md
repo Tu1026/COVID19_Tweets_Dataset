@@ -248,3 +248,5 @@ and cite the following manuscript:
 <a name="chen"></a> Emily Chen, Kristina Lerman, and Emilio Ferrara.
 2020. \#COVID-19: The First Public Coronavirus Twitter Dataset.
 arXiv:cs.SI/2003.07372, 2020
+
+https://github.com/echen102/COVID-19-TweetIDs
