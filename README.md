@@ -165,7 +165,7 @@ Tweets Breakdown by Month:
 | Jul   |      148,798,867 |
 | Aug   |       32,969,822 |
 
-*The increase of number of tweet per month is not only related to the fact that as the pandemic evolved  more people were tweets about it, but also our ability to collect more tweets was also increased.*
+*The increase of the number of tweet per month is not only related to the fact that as the pandemic evolved  more people were tweeting about it, but also our ability to collect more tweets and to augment our dataset with other available datasets, like Chen et al (2020).*
 
 
 
