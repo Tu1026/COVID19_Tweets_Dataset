@@ -147,46 +147,27 @@ repository](https://github.com/DocNow/twarc).
 
 ## Data Statistics
 
-The following data is from Tweets colectled until **May 4, 2020**.
+The following data is from Tweets colectled until **August  14th, 2020**.
 (v1.5)
 
-Number of Tweets: **101,718,655**
-
-Number of Original Tweets: **23,585,575**
-
-Number of Re-Tweets: **78,133,080**
+Number of Tweets: **508,032,902**
 
 Tweets Breakdown by Month:
 
 | Month | Number.of.Tweets |
 | :---- | ---------------: |
-| Jan   |           724877 |
-| Feb   |          2994768 |
-| Mar   |         27414279 |
-| Apr   |         61080885 |
-| May   |          9413886 |
+| Jan   |          724,877 |
+| Feb   |        2,994,768 |
+| Mar   |       27,414,279 |
+| Apr   |       61,080,885 |
+| May   |      100,100,066 |
+| Jun   |      133,949,338 |
+| Jul   |      148,798,867 |
+| Aug   |       32,969,822 |
+
+*The increase of number of tweet per month is not only related to the fact that as the pandemic evolved  more people were tweets about it, but also our ability to collect more tweets was also increased.*
 
 
-Tweets By Language:
-
-| Language           | Number.of.Tweets | Percentage |
-|--------------------|------------------|------------|
-| English            | 64102573         | 0.6362     |
-| Spanish; Castilian | 15995813         | 0.1588     |
-| Portuguese         | 6026713          | 0.0598     |
-| French             | 3539693          | 0.0351     |
-| Bahasa             | 3349276          | 0.0332     |
-| Italian            | 1266263          | 0.0126     |
-| Japanese           | 1022106          | 0.0101     |
-| Thai               | 940527           | 0.0093     |
-| Hindi              | 809436           | 0.0080     |
-| Turkish            | 637887           | 0.0063     |
-| Catalan; Valencian | 572767           | 0.0057     |
-| German             | 558014           | 0.0055     |
-| Tagalog            | 478509           | 0.0047     |
-| Dutch; Flemish     | 266952           | 0.0026     |
-| Arabic             | 152191           | 0.0015     |
-| Others             | 1033686          | 0.0103     |
 
 <div class="figure">
 
