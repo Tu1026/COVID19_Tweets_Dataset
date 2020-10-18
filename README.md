@@ -9,10 +9,6 @@
         Inconsistencies](#data-collection-process-inconsistencies)
 -   [Hydrating Tweets](#hydrating-tweets)
     -   [Using our TWARC Notebook](#using-our-twarc-notebook)
-    -   [Using
-        [Hydrator](https://github.com/DocNow/hydrator)](#using-hydrator)
-    -   [Using
-        [Twarc](https://github.com/DocNow/twarc) (CLI)](#using-twarc-cli)
 -   [Inquiries](#inquiries)
 -   [Licensing](#licensing)
 -   [References](#references)
@@ -1046,29 +1042,15 @@ the tweets. Hydrator also manages Twitter API Rate Limits for you.
 For those who prefer a command-line interface over a GUI, we recommend
 using Twarc.
 
-### Using [Hydrator](https://github.com/DocNow/hydrator)
+#### Using Hydrator
 
 Follow the instructions on the [Hydrator github
 repository](https://github.com/DocNow/hydrator).
 
-### Using [Twarc](https://github.com/DocNow/twarc) (CLI)
+#### Using Twarc
 
 Follow the instructions on the [Twarc github
 repository](https://github.com/DocNow/twarc).
-
-1.  First follow instructions for
-    [installation](https://github.com/DocNow/twarc#Install).
-
-2.  Then, obtain your Twitter API token
-    ([apply](https://developer.twitter.com/en/apply-for-access) for a
-    Twitter developer account).
-
-3.  Configure twarc with your API token by following the instructions
-    for [configuration](https://github.com/DocNow/twarc#Quickstart).
-
-4.  Follow instructions in the [Hydrate
-    section](https://github.com/DocNow/twarc#hydrate). Hydrated tweets
-    are stored in [jsonl](http://jsonlines.org/) files.
 
 Inquiries
 ---------
