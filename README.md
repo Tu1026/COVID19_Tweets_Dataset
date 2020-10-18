@@ -7,6 +7,12 @@
         Hashtags](#named-entity-recognition-mentions-and-hashtags)
     -   [Data Collection Process
         Inconsistencies](#data-collection-process-inconsistencies)
+-   [Hydrating Tweets](#hydrating-tweets)
+    -   [Using our TWARC Notebook](#using-our-twarc-notebook)
+    -   [Using
+        [Hydrator](https://github.com/DocNow/hydrator)](#using-hydrator)
+    -   [Using
+        [Twarc](https://github.com/DocNow/twarc) (CLI)](#using-twarc-cli)
 -   [Inquiries](#inquiries)
 -   [Licensing](#licensing)
 -   [References](#references)
@@ -68,7 +74,7 @@ Integer representation of the tweet’s unique identifier
 </tr>
 <tr>
 <td style="text-align:left;">
-2.Summary\_Details
+1.Summary\_Details
 </td>
 <td style="text-align:left;">
 Language
@@ -1011,6 +1017,58 @@ Hour
 </tr>
 </tbody>
 </table>
+
+Hydrating Tweets
+----------------
+
+### Using our TWARC Notebook
+
+The notebook
+[Automatically\_Hydrate\_TweetsIDs\_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID190.ipynb)
+will allow you to automatically hydrate the tweets-ID from our
+[COVID19\_Tweets\_dataset GitHub
+repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
+
+You can run this notebook directly on the cloud using Google Colab [(see
+how to
+tutorials)](https://colab.research.google.com/notebooks/welcome.ipynb#scrollTo=xitplqMNk_Hc)
+and Google Drive.
+
+In order to hydrate the tweet-IDs using
+[TWARC](https://github.com/DocNow/twarc) you need to create a [Twitter
+Developer Account](https://developer.twitter.com/en/apply-for-access).
+
+The Twitter API’s rate limits pose an issue to fetch data from
+tweed-IDs. So, we recommended using Hydrator to convert the list of
+tweed-IDs, into a CSV file containing all data and meta-data relating to
+the tweets. Hydrator also manages Twitter API Rate Limits for you.
+
+For those who prefer a command-line interface over a GUI, we recommend
+using Twarc.
+
+### Using [Hydrator](https://github.com/DocNow/hydrator)
+
+Follow the instructions on the [Hydrator github
+repository](https://github.com/DocNow/hydrator).
+
+### Using [Twarc](https://github.com/DocNow/twarc) (CLI)
+
+Follow the instructions on the [Twarc github
+repository](https://github.com/DocNow/twarc).
+
+1.  First follow instructions for
+    [installation](https://github.com/DocNow/twarc#Install).
+
+2.  Then, obtain your Twitter API token
+    ([apply](https://developer.twitter.com/en/apply-for-access) for a
+    Twitter developer account).
+
+3.  Configure twarc with your API token by following the instructions
+    for [configuration](https://github.com/DocNow/twarc#Quickstart).
+
+4.  Follow instructions in the [Hydrate
+    section](https://github.com/DocNow/twarc#hydrate). Hydrated tweets
+    are stored in [jsonl](http://jsonlines.org/) files.
 
 Inquiries
 ---------

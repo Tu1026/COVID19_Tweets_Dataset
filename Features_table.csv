@@ -1,6 +1,6 @@
 Table,Feature Name,Description
 Primary key,Tweet_ID,Integer representation of the tweet’s unique identifier
-2.Summary_Details,Language,"When present, indicates a BCP47 language identifier corresponding to the machine-detected language of the Tweet text "
+1.Summary_Details,Language,"When present, indicates a BCP47 language identifier corresponding to the machine-detected language of the Tweet text "
 ,Geolocation_cordinate,Indicates whether or not the geographic location of the tweet was reported
 ,RT,Indicates if the tweet is a retweet (YES) or original tweet (NO)
 ,Likes,Number of likes for the tweet
