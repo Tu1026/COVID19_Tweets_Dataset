@@ -1049,11 +1049,12 @@ Max No. Likes
 
 ![](README_RMD_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
-![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20by%20Language%20Line%20plot.png)
+![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
 There is a total of 284,884 tweets with geolocation information are
 present on the dataset, which are shown on a map below:
-![](README_RMD_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
+![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
 
 ### Language Statistics
 
@@ -1341,6 +1342,8 @@ NA
 
 ![](README_RMD_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
+![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20by%20Language%20Line%20plot.png)
+
 ### Sentiment Analaysis
 
 Similarly, the sentiment of all the English tweets was estimated using a
@@ -1348,7 +1351,7 @@ state-or-the-art Twitter Sentiment algorithm
 [BB\_twtr](https://arxiv.org/abs/1704.06125) [Code
 here](https://github.com/leelaylay/TweetSemEval) .
 
-![](README_RMD_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Sentiment/Tweets%20Sentiment.png)
 
 ### Named Entity Recognition, Mentions, and Hashtags
 
