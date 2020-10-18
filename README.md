@@ -559,11 +559,11 @@ Max No. Likes
 </tbody>
 </table>
 
-![](README_RMD_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](README_RMD_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 There is a total of 284,884 tweets with geolocation information are
 present on the dataset, which are shown on a map below:
-![](README_RMD_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](README_RMD_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 ### Language Statistics
 
@@ -709,7 +709,7 @@ NA
 </tbody>
 </table>
 
-![](README_RMD_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](README_RMD_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 ### Sentiment Analaysis
 
@@ -717,6 +717,8 @@ Similarly, the sentiment of all the English tweets was estimated using a
 state-or-the-art Twitter Sentiment algorithm
 [BB\_twtr](https://arxiv.org/abs/1704.06125) [Code
 here](https://github.com/leelaylay/TweetSemEval) .
+
+![](README_RMD_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 ### Named Entity Recognition, Mentions, and Hashtags
 
