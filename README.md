@@ -1049,6 +1049,8 @@ Max No. Likes
 
 ![](README_RMD_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
+![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20by%20Language%20Line%20plot.png)
+
 There is a total of 284,884 tweets with geolocation information are
 present on the dataset, which are shown on a map below:
 ![](README_RMD_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
