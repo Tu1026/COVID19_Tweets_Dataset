@@ -158,7 +158,7 @@ Hashtag (\#) present in the tweet
 3.Summary\_Mentions
 </td>
 <td style="text-align:left;">
-Mention
+Mentions
 </td>
 <td style="text-align:left;">
 Mention (@) present in the tweet
@@ -775,7 +775,7 @@ coronavirus
 </tr>
 <tr>
 <td style="text-align:left;">
-3,030,445
+11,838,622
 </td>
 <td style="text-align:left;">
 46,275,884
@@ -795,7 +795,7 @@ coronavirus
 </tr>
 <tr>
 <td style="text-align:left;">
-@WHO
+@JoeBiden
 </td>
 <td style="text-align:left;">
 \#coronavirus
@@ -815,7 +815,7 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-516,314
+1,137,845
 </td>
 <td style="text-align:left;">
 30,367,629
@@ -855,7 +855,7 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-464,592
+946,894
 </td>
 <td style="text-align:left;">
 4,088,915
@@ -875,7 +875,7 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-@CNN
+@DrRPNishank
 </td>
 <td style="text-align:left;">
 \#covid\<u+30fc\>19
@@ -895,7 +895,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-302,011
+774,922
 </td>
 <td style="text-align:left;">
 2,298,542
@@ -915,7 +915,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-@ConflitsFR
+@CNN
 </td>
 <td style="text-align:left;">
 \#stayhome
@@ -935,7 +935,7 @@ american
 </tr>
 <tr>
 <td style="text-align:left;">
-236,031
+654,002
 </td>
 <td style="text-align:left;">
 1,355,073
