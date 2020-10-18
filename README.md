@@ -30,15 +30,14 @@ dataset. arXiv:cs.SI/2003.10359,2020
 Data Organization
 -----------------
 
-The dataset is organized by hour (UTC) , month, and by tables: (1)
-“Summary\_Details”, (2) “Summary\_Hastag”, (3) “Summary\_Mentions”, (4)
-“Summary\_Sentiment”, and (5) “Summary\_NER”. For example, the path
+The dataset is organized by hour (UTC) , month, and by tables. The
+description of all the features in all five tables is provided below.
+For example, the path
 “./Summary\_Details/2020\_01/2020\_01\_22\_00\_Summary\_Details.csv”
 contains all the summary details of the tweets collection on January
-22nd at 00:00 UTC time. The description of all the features in all five
-tables is provided in Table 1 below:
+22nd at 00:00 UTC time.
 
-<table class="table table" style="margin-left: auto; margin-right: auto; font-size: 10px; margin-left: auto; margin-right: auto;">
+<table class="table table" style="margin-left: auto; margin-right: auto; font-size: 9px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 Features Description
 </caption>
@@ -64,19 +63,19 @@ Primary key
 Tweet\_ID
 </td>
 <td style="text-align:left;">
-Integer representation of the tweet’s unique identifier\*
+Integer representation of the tweet’s unique identifier
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Summary\_Details
+2.Summary\_Details
 </td>
 <td style="text-align:left;">
 Language
 </td>
 <td style="text-align:left;">
 When present, indicates a BCP47 language identifier corresponding to the
-machine-detected language of the Tweet text \*
+machine-detected language of the Tweet text
 </td>
 </tr>
 <tr>
@@ -87,7 +86,7 @@ Geolocation\_cordinate
 </td>
 <td style="text-align:left;">
 Indicates whether or not the geographic location of the tweet was
-reported\*
+reported
 </td>
 </tr>
 <tr>
@@ -128,7 +127,7 @@ Country
 </td>
 <td style="text-align:left;">
 When present, indicates a list of uppercase two-letter country
-codes from which the tweet comes\*
+codes from which the tweet comes
 </td>
 </tr>
 <tr>
@@ -143,7 +142,7 @@ UTC date and time the tweet was created
 </tr>
 <tr>
 <td style="text-align:left;">
-Summary\_Hastag
+2.Summary\_Hastag
 </td>
 <td style="text-align:left;">
 Hashtag
@@ -154,7 +153,7 @@ Hashtag (\#) present in the tweet
 </tr>
 <tr>
 <td style="text-align:left;">
-Summary\_Mentions
+3.Summary\_Mentions
 </td>
 <td style="text-align:left;">
 Mention
@@ -165,7 +164,7 @@ Mention (@) present in the tweet
 </tr>
 <tr>
 <td style="text-align:left;">
-Summary\_Sentiment
+4.Summary\_Sentiment
 </td>
 <td style="text-align:left;">
 Sentiment\_Label
@@ -206,7 +205,7 @@ Non-normalized prediction for negative sentiment
 </tr>
 <tr>
 <td style="text-align:left;">
-Summary\_NER
+5.Summary\_NER
 </td>
 <td style="text-align:left;">
 NER\_text
@@ -257,9 +256,6 @@ Data Statistics
 Total Number of tweets: **696,455,472**
 
 Average daily number of tweets: **123,186**
-
-Table 2 shows the daily average and the total number of original and
-retweets collected per month:
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -561,8 +557,8 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 284,884 tweets with geolocation information are
-present on the dataset, which are shown on a map below:
+There is a total of 284,884 tweets with geolocation information, which
+are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
 
@@ -714,19 +710,19 @@ NA
 
 ### Sentiment Analaysis
 
-Similarly, the sentiment of all the English tweets was estimated using a
+The sentiment of all the English tweets was estimated using a
 state-or-the-art Twitter Sentiment algorithm
-[BB\_twtr](https://arxiv.org/abs/1704.06125) [Code
-here](https://github.com/leelaylay/TweetSemEval) .
+[BB\_twtr](https://arxiv.org/abs/1704.06125). [(See code
+here)](https://github.com/leelaylay/TweetSemEval) .
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Sentiment/Tweets%20Sentiment.png)
 
 ### Named Entity Recognition, Mentions, and Hashtags
 
-The Named Entity Recognition algorithm of [Python
-flairNLP](https://github.com/flairNLP/flair) was used to extract topics
-of conversation about person, locations, organization, and others. Below
-are the top 5 NER, mentions and Hastags
+The Named Entity Recognition algorithm of
+[flairNLP](https://github.com/flairNLP/flair) was used to extract topics
+of conversation about PERSON, LOCATION, ORGANIZATION, and others. Below
+are the top 5 NER, Mentions (@) and Hastags (\#)
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
