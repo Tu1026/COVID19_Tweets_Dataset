@@ -755,7 +755,7 @@ NER Miscellaneous
 <tbody>
 <tr>
 <td style="text-align:left;">
-@spectatorindex
+@realDonaldTrump
 </td>
 <td style="text-align:left;">
 \#covid19
@@ -775,7 +775,7 @@ coronavirus
 </tr>
 <tr>
 <td style="text-align:left;">
-123,397
+3,030,445
 </td>
 <td style="text-align:left;">
 46,275,884
@@ -815,7 +815,7 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-105,117
+516,314
 </td>
 <td style="text-align:left;">
 30,367,629
@@ -835,7 +835,7 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-@siwuol
+@narendramodi
 </td>
 <td style="text-align:left;">
 \#covid
@@ -855,7 +855,7 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-67,330
+464,592
 </td>
 <td style="text-align:left;">
 4,088,915
@@ -875,7 +875,7 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-@realDonaldTrump
+@CNN
 </td>
 <td style="text-align:left;">
 \#covid\<u+30fc\>19
@@ -895,7 +895,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-66,658
+302,011
 </td>
 <td style="text-align:left;">
 2,298,542
@@ -915,7 +915,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-@eyekon131
+@ConflitsFR
 </td>
 <td style="text-align:left;">
 \#stayhome
@@ -935,7 +935,7 @@ american
 </tr>
 <tr>
 <td style="text-align:left;">
-63,249
+236,031
 </td>
 <td style="text-align:left;">
 1,355,073
