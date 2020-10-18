@@ -559,8 +559,6 @@ Max No. Likes
 </tbody>
 </table>
 
-![](README_RMD_files/figure-markdown_github/unnamed-chunk-4-1.png)
-
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
 There is a total of 284,884 tweets with geolocation information are
@@ -711,8 +709,6 @@ NA
 </tr>
 </tbody>
 </table>
-
-![](README_RMD_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20by%20Language%20Line%20plot.png)
 
