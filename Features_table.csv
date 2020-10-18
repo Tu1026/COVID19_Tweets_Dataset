@@ -8,7 +8,7 @@ Primary key,Tweet_ID,Integer representation of the tweet’s unique identifier
 ,Country,"When present, indicates a list of uppercase two-letter country codes from which the tweet comes"
 ,Date_Created,UTC date and time the tweet was created
 2.Summary_Hastag,Hashtag,Hashtag (#) present in the tweet
-3.Summary_Mentions,Mention,Mention (@) present in the tweet
+3.Summary_Mentions,Mentions,Mention (@) present in the tweet
 4.Summary_Sentiment,Sentiment_Label,"Most probable tweet sentiment (neutral, positive, negative) "
 ,Logits_Neutral,Non-normalized prediction for neutral sentiment 
 ,Logits_Positive,Non-normalized prediction for positive sentiment
