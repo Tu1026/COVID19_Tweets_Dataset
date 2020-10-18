@@ -1020,7 +1020,7 @@ Hydrating Tweets
 ### Using our TWARC Notebook
 
 The notebook
-[Automatically\_Hydrate\_TweetsIDs\_COVID190.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID19.ipynb)
+[Automatically\_Hydrate\_TweetsIDs\_COVID190\_v2.ipynb](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Automatically_Hydrate_TweetsIDs_COVID19_v2.ipynb)
 will allow you to automatically hydrate the tweets-ID from our
 [COVID19\_Tweets\_dataset GitHub
 repository](https://github.com/lopezbec/COVID19_Tweets_Dataset).
