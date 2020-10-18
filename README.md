@@ -696,7 +696,7 @@ Thai
 </tr>
 <tr>
 <td style="text-align:left;">
-NA
+Others
 </td>
 <td style="text-align:left;">
 28,102,253
