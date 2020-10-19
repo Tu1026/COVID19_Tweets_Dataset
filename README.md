@@ -255,6 +255,8 @@ Data Statistics
 
 ### General Statistics
 
+As of 09/09/2020:
+
 Total Number of tweets: **735,690,345**
 
 Average daily number of tweets: **130,064**
