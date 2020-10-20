@@ -41,7 +41,7 @@
 *.synctex.gz(busy)
 *.pdfsync
 
-## Build tool directories for auxiliary files
+## Build tool directories for auxiliary files ver
 # latexrun
 latex.out/
 
