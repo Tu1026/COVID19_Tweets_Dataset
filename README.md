@@ -45,44 +45,205 @@ Features Description
 <thead>
 <tr>
 <th style="text-align:left;font-weight: bold;">
-x
+Table
+</th>
+<th style="text-align:left;font-weight: bold;">
+Feature Name
+</th>
+<th style="text-align:left;font-weight: bold;">
+Description
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-c(“Primary key”, “1.Summary\_Details”,
-"“,”“,”“,”“,”“,”“,”2.Summary\_Hastag“,”3.Summary\_Mentions“,”4.Summary\_Sentiment“,”“,”“,”“,”5.Summary\_NER“,”“,”“,”")
+Primary key
+</td>
+<td style="text-align:left;">
+Tweet\_ID
+</td>
+<td style="text-align:left;">
+Integer representation of the tweets unique identifier
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-c(“Tweet\_ID”, “Language”, “Geolocation\_cordinate”, “RT”, “Likes”,
-“Retweets”, “Country”, “Date\_Created”, “Hashtag”, “Mentions”,
-“Sentiment\_Label”, “Logits\_Neutral”, “Logits\_Positive”,
-“Logits\_Negative”, “NER\_text”, “Start\_Pos”, “End\_Pos”, “NER\_Label
-Prob”)
+1.Summary\_Details
+</td>
+<td style="text-align:left;">
+Language
+</td>
+<td style="text-align:left;">
+When present, indicates a BCP47 language identifier corresponding to the
+machine-detected language of the Tweet text
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-c(“Integer representation of the tweet92s unique identifier”, “When
-present, indicates a BCP47 language identifier corresponding to the
-machine-detected language of the Tweet text”, “Indicates whether or not
-the geographic location of the tweet was reported”, “Indicates if the
-tweet is a retweet (YES) or original tweet (NO)”, “Number of likes for
-the tweet”, “Number of times the tweet was retweeted”, “When present,
-indicates a list of uppercase0two-letter country codes0from which the
-tweet comes”, “UTC date and time the tweet was created”, “Hashtag (\#)
-present in the tweet”, “Mention (@) present in the tweet”, “Most
-probable tweet sentiment (neutral, positive, negative)”, “Non-normalized
-prediction for neutral sentiment”, “Non-normalized prediction for
-positive sentiment”, “Non-normalized prediction for negative sentiment”,
-“Text stating a named entity recognized by the NER algorithm”, “Initial
-character position within the tweet of the NER\_text”, “End character
-position within the tweet of the NER\_text”, “Label and probability of
-the named entity recognized by the NER algorithm”)
+</td>
+<td style="text-align:left;">
+Geolocation\_cordinate
+</td>
+<td style="text-align:left;">
+Indicates whether or not the geographic location of the tweet was
+reported
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+RT
+</td>
+<td style="text-align:left;">
+Indicates if the tweet is a retweet (YES) or original tweet (NO)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Likes
+</td>
+<td style="text-align:left;">
+Number of likes for the tweet
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Retweets
+</td>
+<td style="text-align:left;">
+Number of times the tweet was retweeted
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Country
+</td>
+<td style="text-align:left;">
+When present, indicates a list of uppercase&lt;a0&gt;two-letter country
+codes&lt;a0&gt;from which the tweet comes
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Date\_Created
+</td>
+<td style="text-align:left;">
+UTC date and time the tweet was created
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2.Summary\_Hastag
+</td>
+<td style="text-align:left;">
+Hashtag
+</td>
+<td style="text-align:left;">
+Hashtag (\#) present in the tweet
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+3.Summary\_Mentions
+</td>
+<td style="text-align:left;">
+Mentions
+</td>
+<td style="text-align:left;">
+Mention (@) present in the tweet
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+4.Summary\_Sentiment
+</td>
+<td style="text-align:left;">
+Sentiment\_Label
+</td>
+<td style="text-align:left;">
+Most probable tweet sentiment (neutral, positive, negative)
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Logits\_Neutral
+</td>
+<td style="text-align:left;">
+Non-normalized prediction for neutral sentiment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Logits\_Positive
+</td>
+<td style="text-align:left;">
+Non-normalized prediction for positive sentiment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Logits\_Negative
+</td>
+<td style="text-align:left;">
+Non-normalized prediction for negative sentiment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+5.Summary\_NER
+</td>
+<td style="text-align:left;">
+NER\_text
+</td>
+<td style="text-align:left;">
+Text stating a named entity recognized by the NER algorithm
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Start\_Pos
+</td>
+<td style="text-align:left;">
+Initial character position within the tweet of the NER\_text
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+End\_Pos
+</td>
+<td style="text-align:left;">
+End character position within the tweet of the NER\_text
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+NER\_Label Prob
+</td>
+<td style="text-align:left;">
+Label and probability of the named entity recognized by the NER
+algorithm
 </td>
 </tr>
 </tbody>
