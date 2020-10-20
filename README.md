@@ -18,16 +18,15 @@ the novel coronavirus COVID-19 since January 22nd, 2020.
 
 As of 09/19/2020 there were a total of **785,118,723** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
-keywords. Moreover, the tweets from [Chen et
-al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
+keywords. Moreover, the tweets from [Chen et al.
+(2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
 supplement the dataset by hydrating non-duplicated tweets.
 
 **Citation**
 
 Christian Lopez, Malolan Vasu, and Caleb Gallemore (2020) Understanding
 the perception of COVID-19 policies by mining a multilanguage Twitter
-dataset. arXiv:cs.SI/2003.10359,2020
-<a href="https://arxiv.org/abs/2003.10359" class="uri">https://arxiv.org/abs/2003.10359</a>
+dataset. arXiv:cs.SI/2003.10359,2020 <https://arxiv.org/abs/2003.10359>
 
 Data Organization
 -----------------
@@ -128,8 +127,8 @@ Number of times the tweet was retweeted
 Country
 </td>
 <td style="text-align:left;">
-When present, indicates a list of uppercase two-letter country
-codes from which the tweet comes
+When present, indicates a list of uppercase&lt;a0&gt;two-letter country
+codes&lt;a0&gt;from which the tweet comes
 </td>
 </tr>
 <tr>
@@ -249,7 +248,6 @@ algorithm
 </tr>
 </tbody>
 </table>
-
 Data Statistics
 ---------------
 
@@ -590,7 +588,6 @@ Max No. Likes
 </tr>
 </tbody>
 </table>
-
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
 There is a total of 310,192 tweets with geolocation information, which
@@ -675,73 +672,17 @@ French
 </tr>
 <tr>
 <td style="text-align:left;">
-Other
-</td>
-<td style="text-align:left;">
-15,658,128
-</td>
-<td style="text-align:right;">
-1.99
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Japanese
-</td>
-<td style="text-align:left;">
-9,116,625
-</td>
-<td style="text-align:right;">
-1.16
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Italian
-</td>
-<td style="text-align:left;">
-7,379,173
-</td>
-<td style="text-align:right;">
-0.94
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Hindi
-</td>
-<td style="text-align:left;">
-6,723,689
-</td>
-<td style="text-align:right;">
-0.86
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-German
-</td>
-<td style="text-align:left;">
-6,234,203
-</td>
-<td style="text-align:right;">
-0.79
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 Others
 </td>
 <td style="text-align:left;">
-32,016,873
+77,128,691
 </td>
 <td style="text-align:right;">
-4.08
+9.82
 </td>
 </tr>
 </tbody>
 </table>
-
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20by%20Language%20Line%20plot.png)
 
 ### Sentiment Analaysis
@@ -912,7 +853,7 @@ covid-19
 @DrRPNishank
 </td>
 <td style="text-align:left;">
-\#covid\<u+30fc\>19
+\#covid&lt;u+30fc&gt;19
 </td>
 <td style="text-align:left;">
 fauci
@@ -989,7 +930,6 @@ american
 </tr>
 </tbody>
 </table>
-
 ### Data Collection Process Inconsistencies
 
 Only tweets in English were collected from 22 January to 31 January
@@ -1046,7 +986,6 @@ Hour
 </tr>
 </tbody>
 </table>
-
 Hydrating Tweets
 ----------------
 
@@ -1089,11 +1028,9 @@ Inquiries
 ---------
 
 For questions about the dataset, please contact Dr. Christian Lopez at
-**<a href="mailto:lopezbec@lafayette.edu" class="email">lopezbec@lafayette.edu</a>**,
-Dr. Caleb Gallemore at
-**<a href="mailto:gallemoc@lafayette.edu" class="email">gallemoc@lafayette.edu</a>**,
-or Malolan Vasu at
-**<a href="mailto:vasum@lafayette.edu" class="email">vasum@lafayette.edu</a>**.
+**<lopezbec@lafayette.edu>**, Dr. Caleb Gallemore at
+**<gallemoc@lafayette.edu>**, or Malolan Vasu at
+**<vasum@lafayette.edu>**.
 
 Licensing
 ---------
@@ -1113,4 +1050,4 @@ References
 2020. \#COVID-19: The First Public Coronavirus Twitter Dataset.
 arXiv:cs.SI/2003.07372, 2020
 
-<a href="https://github.com/echen102/COVID-19-TweetIDs" class="uri">https://github.com/echen102/COVID-19-TweetIDs</a>
+<https://github.com/echen102/COVID-19-TweetIDs>
