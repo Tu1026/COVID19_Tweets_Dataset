@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 09/19/2020 there were a total of **780,014,862** tweets collected.
+As of 09/19/2020 there were a total of **785,118,723** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et al.
 (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -255,9 +255,9 @@ Data Statistics
 
 As of 09/19/2020:
 
-Total Number of tweets: **780,014,862**
+Total Number of tweets: **785,118,723**
 
-Average daily number of tweets: **130,435**
+Average daily number of tweets: **130,484**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -495,25 +495,25 @@ Max No. Likes
 7
 </td>
 <td style="text-align:left;">
-53,594
+53,720
 </td>
 <td style="text-align:left;">
-154,921
+155,042
 </td>
 <td style="text-align:left;">
-209,298
+209,738
 </td>
 <td style="text-align:left;">
-38,272,412
+39,611,015
 </td>
 <td style="text-align:left;">
-108,111,086
+111,876,344
 </td>
 <td style="text-align:left;">
-146,383,498
+151,487,359
 </td>
 <td style="text-align:left;">
-55,184
+56,808
 </td>
 <td style="text-align:left;">
 615,768
@@ -590,7 +590,7 @@ Max No. Likes
 </table>
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 308,568 tweets with geolocation information, which
+There is a total of 310,192 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
