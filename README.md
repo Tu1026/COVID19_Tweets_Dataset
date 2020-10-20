@@ -987,9 +987,8 @@ american
 </table>
 ### Data Collection Process Inconsistencies
 
--   Only tweets in English were collected from 22 January to 31 January
-    2020, after this time the algorithm collected tweets in all
-    languages.
+Only tweets in English were collected from 22 January to 31 January
+2020, after this time the algorithm collected tweets in all languages.
 
 There are also some known gaps of data shown below:
 
