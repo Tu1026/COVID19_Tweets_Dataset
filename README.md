@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 09/19/2020 there were a total of **785,118,723** tweets collected.
+As of 09/20/2020 there were a total of **703,853,424** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -255,11 +255,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 09/19/2020:
+As of 09/20/2020:
 
-Total Number of tweets: **785,118,723**
+Total Number of tweets: **703,853,424**
 
-Average daily number of tweets: **130,484**
+Average daily number of tweets: **129,512**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -561,31 +561,31 @@ Max No. Likes
 9
 </td>
 <td style="text-align:left;">
-50,472
+50,252
 </td>
 <td style="text-align:left;">
-137,207
+131,159
 </td>
 <td style="text-align:left;">
-188,427
+179,678
 </td>
 <td style="text-align:left;">
-22,884,717
+641,846
 </td>
 <td style="text-align:left;">
-60,674,673
+1,652,245
 </td>
 <td style="text-align:left;">
-83,559,390
+2,294,091
 </td>
 <td style="text-align:left;">
-23,684
+524
 </td>
 <td style="text-align:left;">
-1,925,489
+389,161
 </td>
 <td style="text-align:left;">
-839,689
+87,471
 </td>
 </tr>
 </tbody>
@@ -593,7 +593,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 310,192 tweets with geolocation information, which
+There is a total of 287,032 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -623,7 +623,7 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-530,653,121
+533,119,965
 </td>
 <td style="text-align:right;">
 67.59
@@ -634,7 +634,7 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-105,593,454
+106,098,330
 </td>
 <td style="text-align:right;">
 13.45
@@ -645,10 +645,10 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-32,085,122
+32,163,752
 </td>
 <td style="text-align:right;">
-4.09
+4.08
 </td>
 </tr>
 <tr>
@@ -656,10 +656,10 @@ Portuguese
 Bahasa
 </td>
 <td style="text-align:left;">
-22,166,492
+22,283,459
 </td>
 <td style="text-align:right;">
-2.82
+2.83
 </td>
 </tr>
 <tr>
@@ -667,7 +667,7 @@ Bahasa
 French
 </td>
 <td style="text-align:left;">
-17,491,687
+17,590,745
 </td>
 <td style="text-align:right;">
 2.23
@@ -678,10 +678,10 @@ French
 Others
 </td>
 <td style="text-align:left;">
-77,128,691
+77,512,571
 </td>
 <td style="text-align:right;">
-9.82
+9.83
 </td>
 </tr>
 </tbody>
@@ -948,45 +948,60 @@ Known gaps
 </caption>
 <thead>
 <tr>
+<th style="text-align:right;font-weight: bold;">
+X
+</th>
 <th style="text-align:left;font-weight: bold;">
 Date
 </th>
 <th style="text-align:left;font-weight: bold;">
-Hour
+Time
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left;">
-8/6/2020
+<td style="text-align:right;">
+2
 </td>
 <td style="text-align:left;">
-7:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-8/8/2020
+2020-08-06
 </td>
 <td style="text-align:left;">
-7:00 UTC
+07:00 UTC
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-8/9/2020
+<td style="text-align:right;">
+3
 </td>
 <td style="text-align:left;">
-7:00 UTC
+2020-08-08
+</td>
+<td style="text-align:left;">
+07:00 UTC
 </td>
 </tr>
 <tr>
-<td style="text-align:left;">
-8/14/2020
+<td style="text-align:right;">
+4
 </td>
 <td style="text-align:left;">
-7:00 UTC
+2020-08-09
+</td>
+<td style="text-align:left;">
+07:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+2020-08-14
+</td>
+<td style="text-align:left;">
+07:00 UTC
 </td>
 </tr>
 </tbody>
