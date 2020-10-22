@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 09/20/2020 there were a total of **703,853,424** tweets collected.
+As of 09/21/2020 there were a total of **788,937,150** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -255,11 +255,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 09/20/2020:
+As of 09/21/2020:
 
-Total Number of tweets: **703,853,424**
+Total Number of tweets: **788,937,150**
 
-Average daily number of tweets: **129,512**
+Average daily number of tweets: **130,294**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -561,31 +561,31 @@ Max No. Likes
 9
 </td>
 <td style="text-align:left;">
-50,252
+50,290
 </td>
 <td style="text-align:left;">
-131,159
+134,560
 </td>
 <td style="text-align:left;">
-179,678
+186,714
 </td>
 <td style="text-align:left;">
-641,846
+23,949,298
 </td>
 <td style="text-align:left;">
-1,652,245
+63,428,519
 </td>
 <td style="text-align:left;">
-2,294,091
+87,377,817
 </td>
 <td style="text-align:left;">
-524
+24,564
 </td>
 <td style="text-align:left;">
-389,161
+1,925,489
 </td>
 <td style="text-align:left;">
-87,471
+839,689
 </td>
 </tr>
 </tbody>
@@ -593,7 +593,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 287,032 tweets with geolocation information, which
+There is a total of 311,072 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -623,7 +623,7 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-533,119,965
+533,431,473
 </td>
 <td style="text-align:right;">
 67.59
@@ -634,7 +634,7 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-106,098,330
+106,187,018
 </td>
 <td style="text-align:right;">
 13.45
@@ -645,7 +645,7 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-32,163,752
+32,202,213
 </td>
 <td style="text-align:right;">
 4.08
@@ -656,7 +656,7 @@ Portuguese
 Bahasa
 </td>
 <td style="text-align:left;">
-22,283,459
+22,300,621
 </td>
 <td style="text-align:right;">
 2.83
@@ -667,7 +667,7 @@ Bahasa
 French
 </td>
 <td style="text-align:left;">
-17,590,745
+17,594,775
 </td>
 <td style="text-align:right;">
 2.23
@@ -678,10 +678,10 @@ French
 Others
 </td>
 <td style="text-align:left;">
-77,512,571
+77,537,539
 </td>
 <td style="text-align:right;">
-9.83
+9.82
 </td>
 </tr>
 </tbody>
@@ -1002,6 +1002,237 @@ Time
 </td>
 <td style="text-align:left;">
 07:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+03:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+04:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+05:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+9
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+06:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+07:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+08:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+09:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+10:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+11:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+12:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+13:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+14:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+15:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+16:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+17:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+18:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+19:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+20:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+24
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+21:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+22:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:left;">
+2020-09-21
+</td>
+<td style="text-align:left;">
+23:00 UTC
 </td>
 </tr>
 </tbody>
