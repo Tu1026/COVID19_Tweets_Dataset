@@ -948,9 +948,6 @@ Known gaps
 </caption>
 <thead>
 <tr>
-<th style="text-align:right;font-weight: bold;">
-X
-</th>
 <th style="text-align:left;font-weight: bold;">
 Date
 </th>
@@ -961,9 +958,6 @@ Time
 </thead>
 <tbody>
 <tr>
-<td style="text-align:right;">
-2
-</td>
 <td style="text-align:left;">
 2020-08-06
 </td>
@@ -972,9 +966,6 @@ Time
 </td>
 </tr>
 <tr>
-<td style="text-align:right;">
-3
-</td>
 <td style="text-align:left;">
 2020-08-08
 </td>
@@ -983,9 +974,6 @@ Time
 </td>
 </tr>
 <tr>
-<td style="text-align:right;">
-4
-</td>
 <td style="text-align:left;">
 2020-08-09
 </td>
@@ -994,9 +982,6 @@ Time
 </td>
 </tr>
 <tr>
-<td style="text-align:right;">
-5
-</td>
 <td style="text-align:left;">
 2020-08-14
 </td>
