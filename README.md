@@ -24,6 +24,11 @@ supplement the dataset by hydrating non-duplicated tweets.
 
 **Citation**
 
+Christian Lopez, and Caleb Gallemore (2020) An Augmented Multilingual
+Twitter Dataset for Studying the COVID-19 Infodemic. DOI:
+10.21203/rs.3.rs-95721/v1
+<a href="https://www.researchsquare.com/article/rs-95721/v1" class="uri">https://www.researchsquare.com/article/rs-95721/v1</a>
+
 Christian Lopez, Malolan Vasu, and Caleb Gallemore (2020) Understanding
 the perception of COVID-19 policies by mining a multilanguage Twitter
 dataset. arXiv:cs.SI/2003.10359,2020
