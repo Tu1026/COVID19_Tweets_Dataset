@@ -759,22 +759,22 @@ coronavirus
 </tr>
 <tr>
 <td style="text-align:left;">
-13,599,192
+14,026,268
 </td>
 <td style="text-align:left;">
-53,139,702
+55,308,006
 </td>
 <td style="text-align:left;">
-4,678,773
+4,511,144
 </td>
 <td style="text-align:left;">
-10,948,654
+10,590,316
 </td>
 <td style="text-align:left;">
-1,284,033
+1,198,587
 </td>
 <td style="text-align:left;">
-5,505,715
+5,199,076
 </td>
 </tr>
 <tr>
@@ -799,22 +799,22 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-1,739,318
+1,961,173
 </td>
 <td style="text-align:left;">
-31,731,510
+33,029,977
 </td>
 <td style="text-align:left;">
-532,553
+489,961
 </td>
 <td style="text-align:left;">
-4,293,330
+4,145,382
 </td>
 <td style="text-align:left;">
-556,024
+528,563
 </td>
 <td style="text-align:left;">
-3,271,970
+3,135,442
 </td>
 </tr>
 <tr>
@@ -839,22 +839,22 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-939,436
+1,064,830
 </td>
 <td style="text-align:left;">
-4,879,874
+5,161,810
 </td>
 <td style="text-align:left;">
-322,685
+303,848
 </td>
 <td style="text-align:left;">
-2,412,619
+2,347,602
 </td>
 <td style="text-align:left;">
-315,368
+305,410
 </td>
 <td style="text-align:left;">
-2,834,632
+2,762,749
 </td>
 </tr>
 <tr>
@@ -879,22 +879,22 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-770,444
+872,180
 </td>
 <td style="text-align:left;">
-2,264,110
+2,298,542
 </td>
 <td style="text-align:left;">
-272,903
+264,404
 </td>
 <td style="text-align:left;">
-963,406
+939,253
 </td>
 <td style="text-align:left;">
-189,631
+191,211
 </td>
 <td style="text-align:left;">
-1,439,146
+1,382,094
 </td>
 </tr>
 <tr>
@@ -922,19 +922,19 @@ democrats
 679,706
 </td>
 <td style="text-align:left;">
-1,291,185
+1,355,572
 </td>
 <td style="text-align:left;">
-157,283
+156,691
 </td>
 <td style="text-align:left;">
-945,044
+931,363
 </td>
 <td style="text-align:left;">
-181,630
+185,857
 </td>
 <td style="text-align:left;">
-419,054
+416,123
 </td>
 </tr>
 </tbody>
