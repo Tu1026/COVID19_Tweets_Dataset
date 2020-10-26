@@ -765,16 +765,16 @@ coronavirus
 55,308,006
 </td>
 <td style="text-align:left;">
-4,511,144
+4,778,814
 </td>
 <td style="text-align:left;">
-10,590,316
+10,890,816
 </td>
 <td style="text-align:left;">
-1,198,587
+1,280,363
 </td>
 <td style="text-align:left;">
-5,199,076
+5,451,002
 </td>
 </tr>
 <tr>
@@ -805,16 +805,16 @@ covid-19
 33,029,977
 </td>
 <td style="text-align:left;">
-489,961
+504,844
 </td>
 <td style="text-align:left;">
-4,145,382
+4,418,907
 </td>
 <td style="text-align:left;">
-528,563
+556,009
 </td>
 <td style="text-align:left;">
-3,135,442
+3,416,553
 </td>
 </tr>
 <tr>
@@ -845,16 +845,16 @@ chinese
 5,161,810
 </td>
 <td style="text-align:left;">
-303,848
+327,603
 </td>
 <td style="text-align:left;">
-2,347,602
+2,399,545
 </td>
 <td style="text-align:left;">
-305,410
+324,662
 </td>
 <td style="text-align:left;">
-2,762,749
+2,845,486
 </td>
 </tr>
 <tr>
@@ -868,7 +868,7 @@ chinese
 fauci
 </td>
 <td style="text-align:left;">
-india
+uk
 </td>
 <td style="text-align:left;">
 cnn
@@ -885,16 +885,16 @@ americans
 2,298,542
 </td>
 <td style="text-align:left;">
-264,404
+309,016
 </td>
 <td style="text-align:left;">
-939,253
+1,044,478
 </td>
 <td style="text-align:left;">
-191,211
+196,709
 </td>
 <td style="text-align:left;">
-1,382,094
+1,483,189
 </td>
 </tr>
 <tr>
@@ -908,13 +908,13 @@ americans
 boris johnson
 </td>
 <td style="text-align:left;">
-uk
+india
 </td>
 <td style="text-align:left;">
 world health organization
 </td>
 <td style="text-align:left;">
-democrats
+american
 </td>
 </tr>
 <tr>
@@ -928,13 +928,13 @@ democrats
 156,691
 </td>
 <td style="text-align:left;">
-931,363
+1,017,298
 </td>
 <td style="text-align:left;">
 185,857
 </td>
 <td style="text-align:left;">
-416,123
+441,206
 </td>
 </tr>
 </tbody>
