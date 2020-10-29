@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 10/04/2020 there were a total of **842,499,224** tweets collected.
+As of 10/04/2020 there were a total of **848,626,985** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -262,9 +262,9 @@ Data Statistics
 
 As of 10/04/2020:
 
-Total Number of tweets: **842,499,224**
+Total Number of tweets: **848,626,985**
 
-Average daily number of tweets: **138,729**
+Average daily number of tweets: **141,379**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -598,25 +598,25 @@ Max No. Likes
 10
 </td>
 <td style="text-align:left;">
-56,461
+53,105
 </td>
 <td style="text-align:left;">
-165,906
+187,995
 </td>
 <td style="text-align:left;">
-217,451
+243,949
 </td>
 <td style="text-align:left;">
-3,970,566
+5,399,856
 </td>
 <td style="text-align:left;">
-11,978,955
+16,919,098
 </td>
 <td style="text-align:left;">
-15,949,521
+22,077,282
 </td>
 <td style="text-align:left;">
-2,011
+244,198
 </td>
 <td style="text-align:left;">
 417,113
@@ -630,7 +630,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 320,285 tweets with geolocation information, which
+There is a total of 562,472 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -660,10 +660,10 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-570,349,892
+575,298,793
 </td>
 <td style="text-align:right;">
-67.70
+67.81
 </td>
 </tr>
 <tr>
@@ -671,10 +671,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-112,072,037
+112,373,725
 </td>
 <td style="text-align:right;">
-13.30
+13.25
 </td>
 </tr>
 <tr>
@@ -682,10 +682,10 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-33,738,622
+33,804,988
 </td>
 <td style="text-align:right;">
-4.00
+3.98
 </td>
 </tr>
 <tr>
@@ -693,7 +693,7 @@ Portuguese
 Bahasa
 </td>
 <td style="text-align:left;">
-24,441,551
+24,635,042
 </td>
 <td style="text-align:right;">
 2.90
@@ -704,10 +704,10 @@ Bahasa
 French
 </td>
 <td style="text-align:left;">
-19,399,147
+19,464,868
 </td>
 <td style="text-align:right;">
-2.30
+2.29
 </td>
 </tr>
 <tr>
@@ -715,10 +715,10 @@ French
 Others
 </td>
 <td style="text-align:left;">
-82,497,819
+82,807,741
 </td>
 <td style="text-align:right;">
-9.79
+9.76
 </td>
 </tr>
 </tbody>
