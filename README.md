@@ -794,7 +794,7 @@ coronavirus
 14,257,497
 </td>
 <td style="text-align:left;">
-57,717,630
+57,964,480
 </td>
 <td style="text-align:left;">
 6,215,521
@@ -831,10 +831,10 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-2,405,101
+2,497,447
 </td>
 <td style="text-align:left;">
-33,086,924
+33,155,388
 </td>
 <td style="text-align:left;">
 568,709
@@ -874,7 +874,7 @@ chinese
 1,961,173
 </td>
 <td style="text-align:left;">
-5,441,460
+5,473,919
 </td>
 <td style="text-align:left;">
 520,692
