@@ -797,16 +797,16 @@ coronavirus
 57,262,037
 </td>
 <td style="text-align:left;">
-5,270,479
+6,033,527
 </td>
 <td style="text-align:left;">
-11,128,301
+11,765,095
 </td>
 <td style="text-align:left;">
-1,358,734
+1,502,890
 </td>
 <td style="text-align:left;">
-5,684,668
+6,159,664
 </td>
 </tr>
 <tr>
@@ -817,7 +817,7 @@ coronavirus
 \#coronavirus
 </td>
 <td style="text-align:left;">
-god
+fauci
 </td>
 <td style="text-align:left;">
 us
@@ -837,16 +837,16 @@ covid-19
 32,957,685
 </td>
 <td style="text-align:left;">
-520,692
+560,457
 </td>
 <td style="text-align:left;">
-4,743,136
+5,316,966
 </td>
 <td style="text-align:left;">
-609,422
+722,313
 </td>
 <td style="text-align:left;">
-3,873,556
+4,614,108
 </td>
 </tr>
 <tr>
@@ -857,7 +857,7 @@ covid-19
 \#covid
 </td>
 <td style="text-align:left;">
-donald trump
+god
 </td>
 <td style="text-align:left;">
 wuhan
@@ -877,16 +877,16 @@ chinese
 5,385,322
 </td>
 <td style="text-align:left;">
-351,200
+520,692
 </td>
 <td style="text-align:left;">
-2,399,545
+2,427,141
 </td>
 <td style="text-align:left;">
-346,280
+358,269
 </td>
 <td style="text-align:left;">
-2,945,487
+3,030,841
 </td>
 </tr>
 <tr>
@@ -897,7 +897,7 @@ chinese
 \#covid\<u+30fc\>19
 </td>
 <td style="text-align:left;">
-fauci
+donald trump
 </td>
 <td style="text-align:left;">
 uk
@@ -917,16 +917,16 @@ americans
 2,264,110
 </td>
 <td style="text-align:left;">
-344,322
+377,170
 </td>
 <td style="text-align:left;">
-1,254,074
+1,570,257
 </td>
 <td style="text-align:left;">
-196,709
+318,606
 </td>
 <td style="text-align:left;">
-1,623,805
+1,998,063
 </td>
 </tr>
 <tr>
@@ -937,13 +937,13 @@ americans
 \#stayhome
 </td>
 <td style="text-align:left;">
-boris johnson
+obama
 </td>
 <td style="text-align:left;">
 india
 </td>
 <td style="text-align:left;">
-world health organization
+congress
 </td>
 <td style="text-align:left;">
 american
@@ -957,16 +957,16 @@ american
 1,291,185
 </td>
 <td style="text-align:left;">
-156,691
+309,450
 </td>
 <td style="text-align:left;">
-1,056,745
+1,226,641
 </td>
 <td style="text-align:left;">
-185,857
+189,735
 </td>
 <td style="text-align:left;">
-464,862
+522,197
 </td>
 </tr>
 </tbody>
