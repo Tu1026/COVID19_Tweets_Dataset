@@ -797,16 +797,16 @@ coronavirus
 58,682,399
 </td>
 <td style="text-align:left;">
-6,215,521
+6,799,934
 </td>
 <td style="text-align:left;">
-11,917,810
+12,477,058
 </td>
 <td style="text-align:left;">
-1,527,853
+1,718,462
 </td>
 <td style="text-align:left;">
-6,298,441
+6,651,684
 </td>
 </tr>
 <tr>
@@ -840,13 +840,13 @@ covid-19
 568,709
 </td>
 <td style="text-align:left;">
-5,459,096
+5,935,928
 </td>
 <td style="text-align:left;">
-731,993
+811,969
 </td>
 <td style="text-align:left;">
-4,827,311
+5,455,308
 </td>
 </tr>
 <tr>
@@ -877,16 +877,16 @@ chinese
 5,547,681
 </td>
 <td style="text-align:left;">
-520,692
+538,362
 </td>
 <td style="text-align:left;">
 2,427,141
 </td>
 <td style="text-align:left;">
-358,269
+380,938
 </td>
 <td style="text-align:left;">
-3,082,343
+3,178,463
 </td>
 </tr>
 <tr>
@@ -917,16 +917,16 @@ americans
 2,264,110
 </td>
 <td style="text-align:left;">
-410,332
+467,846
 </td>
 <td style="text-align:left;">
-1,643,322
+1,852,728
 </td>
 <td style="text-align:left;">
-318,606
+327,738
 </td>
 <td style="text-align:left;">
-2,063,648
+2,340,462
 </td>
 </tr>
 <tr>
@@ -946,7 +946,7 @@ india
 congress
 </td>
 <td style="text-align:left;">
-american
+democrats
 </td>
 </tr>
 <tr>
@@ -957,16 +957,16 @@ american
 1,291,185
 </td>
 <td style="text-align:left;">
-326,710
+336,070
 </td>
 <td style="text-align:left;">
-1,262,557
+1,455,406
 </td>
 <td style="text-align:left;">
-189,735
+208,785
 </td>
 <td style="text-align:left;">
-556,297
+568,045
 </td>
 </tr>
 </tbody>
