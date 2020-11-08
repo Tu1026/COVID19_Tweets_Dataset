@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 10/23/2020 there were a total of **942,149,169** tweets collected.
+As of 10/24/2020 there were a total of **946,174,783** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -265,11 +265,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 10/23/2020:
+As of 10/24/2020:
 
-Total Number of tweets: **942,149,169**
+Total Number of tweets: **946,174,783**
 
-Average daily number of tweets: **137,403**
+Average daily number of tweets: **137,179**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -603,25 +603,25 @@ Max No. Likes
 10
 </td>
 <td style="text-align:left;">
-53,680
+53,686
 </td>
 <td style="text-align:left;">
-147,510
+145,590
 </td>
 <td style="text-align:left;">
-205,152
+202,909
 </td>
 <td style="text-align:left;">
-29,676,274
+30,962,902
 </td>
 <td style="text-align:left;">
-82,389,852
+85,128,838
 </td>
 <td style="text-align:left;">
-111,770,610
+115,796,224
 </td>
 <td style="text-align:left;">
-312,169
+313,051
 </td>
 <td style="text-align:left;">
 946,810
@@ -635,7 +635,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 631,058 tweets with geolocation information, which
+There is a total of 631,940 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -665,7 +665,7 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-642,753,529
+645,467,059
 </td>
 <td style="text-align:right;">
 68.24
@@ -676,10 +676,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-120,970,011
+121,330,521
 </td>
 <td style="text-align:right;">
-12.84
+12.83
 </td>
 </tr>
 <tr>
@@ -687,7 +687,7 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-36,001,618
+36,087,908
 </td>
 <td style="text-align:right;">
 3.82
@@ -698,10 +698,10 @@ Portuguese
 Bahasa
 </td>
 <td style="text-align:left;">
-27,439,203
+27,574,793
 </td>
 <td style="text-align:right;">
-2.91
+2.92
 </td>
 </tr>
 <tr>
@@ -709,7 +709,7 @@ Bahasa
 French
 </td>
 <td style="text-align:left;">
-22,672,711
+22,829,719
 </td>
 <td style="text-align:right;">
 2.41
@@ -720,10 +720,10 @@ French
 Others
 </td>
 <td style="text-align:left;">
-92,016,425
+92,589,111
 </td>
 <td style="text-align:right;">
-9.77
+9.79
 </td>
 </tr>
 </tbody>
@@ -799,19 +799,19 @@ coronavirus
 14,257,497
 </td>
 <td style="text-align:left;">
-58,682,399
+58,904,355
 </td>
 <td style="text-align:left;">
-7,246,328
+7,433,370
 </td>
 <td style="text-align:left;">
-12,710,335
+12,779,047
 </td>
 <td style="text-align:left;">
-1,790,126
+1,817,584
 </td>
 <td style="text-align:left;">
-6,941,844
+7,063,031
 </td>
 </tr>
 <tr>
@@ -836,22 +836,22 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-2,739,839
+2,824,447
 </td>
 <td style="text-align:left;">
-33,331,815
+33,382,780
 </td>
 <td style="text-align:left;">
-716,285
+741,663
 </td>
 <td style="text-align:left;">
-6,239,549
+6,461,434
 </td>
 <td style="text-align:left;">
-835,239
+840,494
 </td>
 <td style="text-align:left;">
-6,001,349
+6,205,188
 </td>
 </tr>
 <tr>
@@ -879,7 +879,7 @@ chinese
 1,961,173
 </td>
 <td style="text-align:left;">
-5,547,681
+5,576,613
 </td>
 <td style="text-align:left;">
 568,709
@@ -888,15 +888,15 @@ chinese
 2,427,141
 </td>
 <td style="text-align:left;">
-413,314
+423,846
 </td>
 <td style="text-align:left;">
-3,226,433
+3,296,625
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-@narendramodi
+@joebiden
 </td>
 <td style="text-align:left;">
 \#covid\<u+30fc\>19
@@ -916,7 +916,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-1,064,830
+1,066,767
 </td>
 <td style="text-align:left;">
 2,264,110
@@ -925,18 +925,18 @@ americans
 550,333
 </td>
 <td style="text-align:left;">
-2,176,722
+2,276,229
 </td>
 <td style="text-align:left;">
 327,738
 </td>
 <td style="text-align:left;">
-2,463,725
+2,534,365
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-@joebiden
+@narendramodi
 </td>
 <td style="text-align:left;">
 \#stayhome
@@ -956,7 +956,7 @@ democrats
 </tr>
 <tr>
 <td style="text-align:left;">
-1,002,956
+1,064,830
 </td>
 <td style="text-align:left;">
 1,291,185
@@ -965,7 +965,7 @@ democrats
 336,070
 </td>
 <td style="text-align:left;">
-1,613,264
+1,700,715
 </td>
 <td style="text-align:left;">
 220,479
