@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 10/30/2020 there were a total of **972,265,212** tweets collected.
+As of 11/02/2020 there were a total of **980,868,439** tweets collected.
 The tweets are collected using Twitter’s trending topics and selected
 keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -265,11 +265,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 10/30/2020:
+As of 11/02/2020:
 
-Total Number of tweets: **972,265,212**
+Total Number of tweets: **980,868,439**
 
-Average daily number of tweets: **136,962**
+Average daily number of tweets: **141,729**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -630,12 +630,44 @@ Max No. Likes
 785,385
 </td>
 </tr>
+<tr>
+<td style="text-align:left;">
+11
+</td>
+<td style="text-align:left;">
+66,344
+</td>
+<td style="text-align:left;">
+122,038
+</td>
+<td style="text-align:left;">
+189,397
+</td>
+<td style="text-align:left;">
+3,008,290
+</td>
+<td style="text-align:left;">
+5,594,937
+</td>
+<td style="text-align:left;">
+8,603,227
+</td>
+<td style="text-align:left;">
+1,997
+</td>
+<td style="text-align:left;">
+409,897
+</td>
+<td style="text-align:left;">
+257,717
+</td>
+</tr>
 </tbody>
 </table>
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 637,010 tweets with geolocation information, which
+There is a total of 639,007 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -665,7 +697,7 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-662,785,480
+668,682,035
 </td>
 <td style="text-align:right;">
 68.19
@@ -676,10 +708,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-124,144,118
+125,025,949
 </td>
 <td style="text-align:right;">
-12.77
+12.75
 </td>
 </tr>
 <tr>
@@ -687,10 +719,10 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-36,730,861
+36,953,282
 </td>
 <td style="text-align:right;">
-3.78
+3.77
 </td>
 </tr>
 <tr>
@@ -698,10 +730,10 @@ Portuguese
 Bahasa
 </td>
 <td style="text-align:left;">
-28,063,735
+28,185,028
 </td>
 <td style="text-align:right;">
-2.89
+2.87
 </td>
 </tr>
 <tr>
@@ -709,10 +741,10 @@ Bahasa
 French
 </td>
 <td style="text-align:left;">
-24,267,042
+24,658,138
 </td>
 <td style="text-align:right;">
-2.50
+2.51
 </td>
 </tr>
 <tr>
@@ -720,10 +752,10 @@ French
 Others
 </td>
 <td style="text-align:left;">
-95,978,304
+97,068,335
 </td>
 <td style="text-align:right;">
-9.87
+9.90
 </td>
 </tr>
 </tbody>
@@ -799,19 +831,19 @@ coronavirus
 14,257,497
 </td>
 <td style="text-align:left;">
-60,334,598
+60,730,549
 </td>
 <td style="text-align:left;">
-7,433,370
+7,481,049
 </td>
 <td style="text-align:left;">
-12,779,047
+12,812,172
 </td>
 <td style="text-align:left;">
-1,817,584
+1,830,864
 </td>
 <td style="text-align:left;">
-7,063,031
+7,097,453
 </td>
 </tr>
 <tr>
@@ -836,22 +868,22 @@ covid-19
 </tr>
 <tr>
 <td style="text-align:left;">
-3,558,324
+3,790,225
 </td>
 <td style="text-align:left;">
-33,735,702
+33,858,001
 </td>
 <td style="text-align:left;">
-741,663
+762,531
 </td>
 <td style="text-align:left;">
-6,461,434
+6,505,117
 </td>
 <td style="text-align:left;">
 840,494
 </td>
 <td style="text-align:left;">
-6,205,188
+6,288,234
 </td>
 </tr>
 <tr>
@@ -879,10 +911,10 @@ chinese
 1,961,173
 </td>
 <td style="text-align:left;">
-5,763,162
+5,823,591
 </td>
 <td style="text-align:left;">
-568,709
+613,212
 </td>
 <td style="text-align:left;">
 2,427,141
@@ -916,7 +948,7 @@ americans
 </tr>
 <tr>
 <td style="text-align:left;">
-1,313,686
+1,448,681
 </td>
 <td style="text-align:left;">
 2,264,110
@@ -925,13 +957,13 @@ americans
 550,333
 </td>
 <td style="text-align:left;">
-2,276,229
+2,332,743
 </td>
 <td style="text-align:left;">
 327,738
 </td>
 <td style="text-align:left;">
-2,534,365
+2,567,780
 </td>
 </tr>
 <tr>
@@ -965,7 +997,7 @@ democrats
 336,070
 </td>
 <td style="text-align:left;">
-1,700,715
+1,735,634
 </td>
 <td style="text-align:left;">
 220,479
