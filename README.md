@@ -834,16 +834,16 @@ coronavirus
 63,018,759
 </td>
 <td style="text-align:left;">
-7,499,681
+8,418,242
 </td>
 <td style="text-align:left;">
-12,818,613
+13,046,893
 </td>
 <td style="text-align:left;">
-1,834,730
+2,008,315
 </td>
 <td style="text-align:left;">
-7,102,871
+7,321,244
 </td>
 </tr>
 <tr>
@@ -874,16 +874,16 @@ covid-19
 34,411,344
 </td>
 <td style="text-align:left;">
-762,531
+914,367
 </td>
 <td style="text-align:left;">
-6,514,220
+6,885,445
 </td>
 <td style="text-align:left;">
-843,849
+965,713
 </td>
 <td style="text-align:left;">
-6,305,854
+6,820,692
 </td>
 </tr>
 <tr>
@@ -897,7 +897,7 @@ covid-19
 fauci
 </td>
 <td style="text-align:left;">
-wuhan
+uk
 </td>
 <td style="text-align:left;">
 nhs
@@ -914,16 +914,16 @@ chinese
 6,115,425
 </td>
 <td style="text-align:left;">
-613,212
+662,128
 </td>
 <td style="text-align:left;">
-2,427,141
+2,453,384
 </td>
 <td style="text-align:left;">
-423,846
+477,361
 </td>
 <td style="text-align:left;">
-3,296,625
+3,375,965
 </td>
 </tr>
 <tr>
@@ -937,7 +937,7 @@ chinese
 god
 </td>
 <td style="text-align:left;">
-uk
+wuhan
 </td>
 <td style="text-align:left;">
 cnn
@@ -954,16 +954,16 @@ americans
 2,264,110
 </td>
 <td style="text-align:left;">
-550,333
+560,171
 </td>
 <td style="text-align:left;">
-2,332,743
+2,427,141
 </td>
 <td style="text-align:left;">
-327,738
+343,216
 </td>
 <td style="text-align:left;">
-2,578,855
+2,816,021
 </td>
 </tr>
 <tr>
@@ -983,7 +983,7 @@ india
 congress
 </td>
 <td style="text-align:left;">
-democrats
+covid19
 </td>
 </tr>
 <tr>
@@ -997,13 +997,13 @@ democrats
 336,070
 </td>
 <td style="text-align:left;">
-1,735,634
+1,831,034
 </td>
 <td style="text-align:left;">
 220,479
 </td>
 <td style="text-align:left;">
-568,045
+671,265
 </td>
 </tr>
 </tbody>
