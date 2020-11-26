@@ -834,16 +834,16 @@ coronavirus
 63,018,759
 </td>
 <td style="text-align:left;">
-8,418,242
+8,655,311
 </td>
 <td style="text-align:left;">
-13,046,893
+13,136,868
 </td>
 <td style="text-align:left;">
 2,008,315
 </td>
 <td style="text-align:left;">
-7,321,244
+7,398,967
 </td>
 </tr>
 <tr>
@@ -874,16 +874,16 @@ covid-19
 34,411,344
 </td>
 <td style="text-align:left;">
-914,367
+941,112
 </td>
 <td style="text-align:left;">
-6,885,445
+7,008,033
 </td>
 <td style="text-align:left;">
-965,713
+1,026,534
 </td>
 <td style="text-align:left;">
-6,820,692
+7,002,960
 </td>
 </tr>
 <tr>
@@ -963,7 +963,7 @@ americans
 343,216
 </td>
 <td style="text-align:left;">
-2,816,021
+2,928,792
 </td>
 </tr>
 <tr>
@@ -980,7 +980,7 @@ obama
 india
 </td>
 <td style="text-align:left;">
-congress
+icu
 </td>
 <td style="text-align:left;">
 covid19
@@ -997,13 +997,13 @@ covid19
 336,070
 </td>
 <td style="text-align:left;">
-1,831,034
+1,861,257
 </td>
 <td style="text-align:left;">
-220,479
+266,064
 </td>
 <td style="text-align:left;">
-671,265
+718,674
 </td>
 </tr>
 </tbody>
