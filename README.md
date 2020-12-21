@@ -866,16 +866,16 @@ covid-19
 67,069,582
 </td>
 <td style="text-align:left;">
-15,873,513
+17,034,308
 </td>
 <td style="text-align:left;">
-15,857,208
+16,311,698
 </td>
 <td style="text-align:left;">
-4,386,564
+5,127,938
 </td>
 <td style="text-align:left;">
-12,734,529
+13,616,435
 </td>
 </tr>
 <tr>
@@ -906,16 +906,16 @@ coronavirus
 35,367,945
 </td>
 <td style="text-align:left;">
-2,006,328
+2,066,560
 </td>
 <td style="text-align:left;">
-12,863,557
+13,459,284
 </td>
 <td style="text-align:left;">
-1,753,263
+1,858,162
 </td>
 <td style="text-align:left;">
-9,854,582
+10,071,542
 </td>
 </tr>
 <tr>
@@ -929,7 +929,7 @@ coronavirus
 donald trump
 </td>
 <td style="text-align:left;">
-uk
+india
 </td>
 <td style="text-align:left;">
 nhs
@@ -946,16 +946,16 @@ americans
 6,762,097
 </td>
 <td style="text-align:left;">
-1,646,491
+1,835,947
 </td>
 <td style="text-align:left;">
-3,132,525
+3,781,007
 </td>
 <td style="text-align:left;">
 560,270
 </td>
 <td style="text-align:left;">
-6,074,097
+6,706,981
 </td>
 </tr>
 <tr>
@@ -972,7 +972,7 @@ covid
 america
 </td>
 <td style="text-align:left;">
-cnn
+covid
 </td>
 <td style="text-align:left;">
 chinese
@@ -986,13 +986,13 @@ chinese
 2,264,110
 </td>
 <td style="text-align:left;">
-862,913
+1,034,662
 </td>
 <td style="text-align:left;">
-3,036,238
+3,407,928
 </td>
 <td style="text-align:left;">
-474,609
+548,247
 </td>
 <td style="text-align:left;">
 3,758,977
@@ -1009,13 +1009,13 @@ chinese
 god
 </td>
 <td style="text-align:left;">
-india
+uk
 </td>
 <td style="text-align:left;">
-usps
+cnn
 </td>
 <td style="text-align:left;">
-american
+covid
 </td>
 </tr>
 <tr>
@@ -1026,16 +1026,16 @@ american
 1,291,185
 </td>
 <td style="text-align:left;">
-853,881
+949,432
 </td>
 <td style="text-align:left;">
-2,763,875
+3,275,368
 </td>
 <td style="text-align:left;">
-411,738
+474,609
 </td>
 <td style="text-align:left;">
-1,288,786
+1,551,238
 </td>
 </tr>
 </tbody>
