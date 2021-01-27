@@ -29,11 +29,6 @@ Twitter Dataset for Studying the COVID-19 Infodemic. DOI:
 10.21203/rs.3.rs-95721/v1
 <a href="https://www.researchsquare.com/article/rs-95721/v1" class="uri">https://www.researchsquare.com/article/rs-95721/v1</a>
 
-Christian Lopez, Malolan Vasu, and Caleb Gallemore (2020) Understanding
-the perception of COVID-19 policies by mining a multilanguage Twitter
-dataset. arXiv:cs.SI/2003.10359,2020
-<a href="https://arxiv.org/abs/2003.10359" class="uri">https://arxiv.org/abs/2003.10359</a>
-
 Data Organization
 -----------------
 
