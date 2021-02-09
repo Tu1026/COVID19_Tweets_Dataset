@@ -861,16 +861,16 @@ covid-19
 71,462,972
 </td>
 <td style="text-align:left;">
-25,736,343
+26,803,352
 </td>
 <td style="text-align:left;">
-18,076,996
+18,147,784
 </td>
 <td style="text-align:left;">
-7,186,708
+7,218,515
 </td>
 <td style="text-align:left;">
-17,253,635
+17,550,999
 </td>
 </tr>
 <tr>
@@ -901,16 +901,16 @@ coronavirus
 36,342,640
 </td>
 <td style="text-align:left;">
-2,771,458
+2,986,172
 </td>
 <td style="text-align:left;">
-16,026,038
+16,107,415
 </td>
 <td style="text-align:left;">
-2,634,723
+2,678,978
 </td>
 <td style="text-align:left;">
-10,754,369
+10,834,945
 </td>
 </tr>
 <tr>
@@ -941,16 +941,16 @@ americans
 7,413,603
 </td>
 <td style="text-align:left;">
-2,663,431
+2,769,604
 </td>
 <td style="text-align:left;">
-4,697,244
+4,730,602
 </td>
 <td style="text-align:left;">
 1,064,908
 </td>
 <td style="text-align:left;">
-9,223,259
+9,335,234
 </td>
 </tr>
 <tr>
@@ -961,7 +961,7 @@ americans
 \#covid\<u+30fc\>19
 </td>
 <td style="text-align:left;">
-fauci
+biden
 </td>
 <td style="text-align:left;">
 india
@@ -981,7 +981,7 @@ chinese
 2,252,353
 </td>
 <td style="text-align:left;">
-2,300,047
+2,330,982
 </td>
 <td style="text-align:left;">
 4,573,878
@@ -1001,7 +1001,7 @@ chinese
 \#stayhome
 </td>
 <td style="text-align:left;">
-biden
+fauci
 </td>
 <td style="text-align:left;">
 uk
@@ -1021,16 +1021,16 @@ covid
 1,291,185
 </td>
 <td style="text-align:left;">
-2,160,873
+2,300,047
 </td>
 <td style="text-align:left;">
 4,026,000
 </td>
 <td style="text-align:left;">
-621,358
+646,309
 </td>
 <td style="text-align:left;">
-3,062,020
+3,124,887
 </td>
 </tr>
 </tbody>
