@@ -861,16 +861,16 @@ covid-19
 71,654,869
 </td>
 <td style="text-align:left;">
-31,211,307
+31,508,054
 </td>
 <td style="text-align:left;">
-18,969,992
+19,034,284
 </td>
 <td style="text-align:left;">
-7,861,197
+7,878,055
 </td>
 <td style="text-align:left;">
-19,503,884
+19,580,190
 </td>
 </tr>
 <tr>
@@ -901,13 +901,13 @@ coronavirus
 36,378,169
 </td>
 <td style="text-align:left;">
-3,716,785
+3,740,246
 </td>
 <td style="text-align:left;">
-17,325,574
+17,424,947
 </td>
 <td style="text-align:left;">
-2,985,971
+3,006,924
 </td>
 <td style="text-align:left;">
 11,176,798
@@ -941,16 +941,16 @@ americans
 7,439,104
 </td>
 <td style="text-align:left;">
-3,437,605
+3,478,952
 </td>
 <td style="text-align:left;">
-5,280,864
+5,310,587
 </td>
 <td style="text-align:left;">
-1,252,043
+1,262,705
 </td>
 <td style="text-align:left;">
-10,471,078
+10,539,872
 </td>
 </tr>
 <tr>
@@ -981,13 +981,13 @@ chinese
 2,252,353
 </td>
 <td style="text-align:left;">
-3,056,399
+3,192,072
 </td>
 <td style="text-align:left;">
 4,599,386
 </td>
 <td style="text-align:left;">
-1,230,574
+1,241,350
 </td>
 <td style="text-align:left;">
 4,209,436
@@ -1030,7 +1030,7 @@ covid
 721,789
 </td>
 <td style="text-align:left;">
-3,902,203
+3,934,940
 </td>
 </tr>
 </tbody>
