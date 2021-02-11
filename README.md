@@ -861,16 +861,16 @@ covid-19
 71,654,869
 </td>
 <td style="text-align:left;">
-32,073,355
+33,048,818
 </td>
 <td style="text-align:left;">
-19,148,129
+19,284,990
 </td>
 <td style="text-align:left;">
-7,963,673
+8,074,462
 </td>
 <td style="text-align:left;">
-19,872,833
+20,296,647
 </td>
 </tr>
 <tr>
@@ -881,7 +881,7 @@ covid-19
 \#coronavirus
 </td>
 <td style="text-align:left;">
-donald trump
+covid
 </td>
 <td style="text-align:left;">
 us
@@ -901,13 +901,13 @@ coronavirus
 36,378,169
 </td>
 <td style="text-align:left;">
-3,782,935
+3,910,617
 </td>
 <td style="text-align:left;">
-17,682,312
+18,119,108
 </td>
 <td style="text-align:left;">
-3,075,559
+3,202,672
 </td>
 <td style="text-align:left;">
 11,176,798
@@ -921,7 +921,7 @@ coronavirus
 \#covid
 </td>
 <td style="text-align:left;">
-covid
+donald trump
 </td>
 <td style="text-align:left;">
 america
@@ -941,16 +941,16 @@ americans
 7,439,104
 </td>
 <td style="text-align:left;">
-3,644,161
+3,875,037
 </td>
 <td style="text-align:left;">
-5,431,384
+5,635,137
 </td>
 <td style="text-align:left;">
-1,326,632
+1,414,880
 </td>
 <td style="text-align:left;">
-10,699,277
+11,004,657
 </td>
 </tr>
 <tr>
@@ -964,13 +964,13 @@ americans
 biden
 </td>
 <td style="text-align:left;">
-india
+uk
 </td>
 <td style="text-align:left;">
 senate
 </td>
 <td style="text-align:left;">
-chinese
+covid
 </td>
 </tr>
 <tr>
@@ -981,16 +981,16 @@ chinese
 2,252,353
 </td>
 <td style="text-align:left;">
-3,423,924
+3,844,549
 </td>
 <td style="text-align:left;">
-4,599,386
+4,661,619
 </td>
 <td style="text-align:left;">
-1,279,198
+1,412,493
 </td>
 <td style="text-align:left;">
-4,209,436
+4,283,344
 </td>
 </tr>
 <tr>
@@ -1004,13 +1004,13 @@ chinese
 fauci
 </td>
 <td style="text-align:left;">
-uk
+india
 </td>
 <td style="text-align:left;">
 cnn
 </td>
 <td style="text-align:left;">
-covid
+chinese
 </td>
 </tr>
 <tr>
@@ -1021,16 +1021,16 @@ covid
 1,291,185
 </td>
 <td style="text-align:left;">
-2,746,475
+2,775,514
 </td>
 <td style="text-align:left;">
-4,483,724
+4,599,386
 </td>
 <td style="text-align:left;">
-721,789
+789,381
 </td>
 <td style="text-align:left;">
-4,055,118
+4,209,436
 </td>
 </tr>
 </tbody>
