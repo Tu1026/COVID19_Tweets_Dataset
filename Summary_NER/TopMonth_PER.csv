@@ -1,61 +1,61 @@
-"","Month","Text","Count"
-"1",1,"trump",85768
-"2",1,"soleimani",27914
-"3",1,"seto wing hong",25075
-"4",1,"jared kushner",20914
-"5",1,"liang wudong",18273
-"6",2,"trump",686033
-"7",2,"mike pence",89619
-"8",2,"li wenliang",74469
-"9",2,"god",61003
-"10",2,"donald trump",40477
-"11",3,"trump",1460697
-"12",3,"god",162496
-"13",3,"donald trump",68159
-"14",3,"pelosi",64808
-"15",3,"stupidity",51008
-"16",4,"trump",2278646
-"17",4,"god",254286
-"18",4,"fauci",230113
-"19",4,"donald trump",195212
-"20",4,"boris johnson",131069
-"21",5,"trump",2539714
-"22",5,"donald trump",437815
-"23",5,"fauci",304305
-"24",5,"obama",220997
-"25",5,"cummings",215202
-"26",6,"trump",3274081
-"27",6,"donald trump",351541
-"28",6,"fauci",252870
-"29",6,"covid",175547
-"30",6,"biden",153052
-"31",7,"trump",3738428
-"32",7,"fauci",983558
-"33",7,"covid",387388
-"34",7,"donald trump",267463
-"35",7,"herman cain",241992
-"36",8,"trump",3330546
-"37",8,"donald trump",505542
-"38",8,"biden",448651
-"39",8,"covid",426857
-"40",8,"fauci",299468
-"41",9,"trump",5153423
-"42",9,"biden",1032435
-"43",9,"covid",928820
-"44",9,"donald trump",461006
-"45",9,"joe biden",280367
-"46",10,"trump",9527838
-"47",10,"biden",1645518
-"48",10,"covid",1610522
-"49",10,"donald trump",1466865
-"50",10,"joe biden",641068
-"51",11,"trump",2927141
-"52",11,"biden",1792188
-"53",11,"covid",1087385
-"54",11,"joe biden",482948
-"55",11,"fauci",234958
-"56",12,"trump",1788699
-"57",12,"covid",665106
-"58",12,"biden",365924
-"59",12,"mitch mcconnell",163477
-"60",12,"rudy giuliani",144556
+,Month,Text,Count
+1,1,trump,85768
+2,1,soleimani,27914
+3,1,seto wing hong,25075
+4,1,jared kushner,20914
+5,1,liang wudong,18273
+6,2,trump,686033
+7,2,mike pence,89619
+8,2,li wenliang,74469
+9,2,god,61003
+10,2,donald trump,40477
+11,3,trump,1460697
+12,3,god,162496
+13,3,donald trump,68159
+14,3,pelosi,64808
+15,3,stupidity,51008
+16,4,trump,2278646
+17,4,god,254286
+18,4,fauci,230113
+19,4,donald trump,195212
+20,4,boris johnson,131069
+21,5,trump,2539714
+22,5,donald trump,437815
+23,5,fauci,304305
+24,5,obama,220997
+25,5,cummings,215202
+26,6,trump,3274081
+27,6,donald trump,351541
+28,6,fauci,252870
+29,6,covid,175547
+30,6,biden,153052
+31,7,trump,3738428
+32,7,fauci,983558
+33,7,covid,387388
+34,7,donald trump,267463
+35,7,herman cain,241992
+36,8,trump,3330546
+37,8,donald trump,505542
+38,8,biden,448651
+39,8,covid,426857
+40,8,fauci,299468
+41,9,trump,5153423
+42,9,biden,1032435
+43,9,covid,928820
+44,9,donald trump,461006
+45,9,joe biden,280367
+46,10,trump,9527838
+47,10,biden,1645518
+48,10,covid,1610522
+49,10,donald trump,1466865
+50,10,joe biden,641068
+51,11,trump,2927141
+52,11,biden,1792188
+53,11,covid,1087385
+54,11,joe biden,482948
+55,11,fauci,234958
+56,12,trump,1788699
+57,12,covid,665106
+58,12,biden,365924
+59,12,mitch mcconnell,163477
+60,12,rudy giuliani,144556
