@@ -970,16 +970,16 @@ covid-19
 79,827,909
 </td>
 <td style="text-align:left;">
-36,906,603
+36,955,442
 </td>
 <td style="text-align:left;">
-21,489,056
+21,554,746
 </td>
 <td style="text-align:left;">
-9,031,051
+9,051,862
 </td>
 <td style="text-align:left;">
-24,494,481
+24,610,635
 </td>
 </tr>
 <tr>
@@ -1010,16 +1010,16 @@ americans
 37,869,205
 </td>
 <td style="text-align:left;">
-5,576,732
+5,601,328
 </td>
 <td style="text-align:left;">
-21,255,594
+21,282,338
 </td>
 <td style="text-align:left;">
 3,411,134
 </td>
 <td style="text-align:left;">
-13,866,783
+13,931,347
 </td>
 </tr>
 <tr>
@@ -1050,13 +1050,13 @@ coronavirus
 8,531,100
 </td>
 <td style="text-align:left;">
-5,449,163
+5,474,670
 </td>
 <td style="text-align:left;">
 7,039,135
 </td>
 <td style="text-align:left;">
-2,146,068
+2,174,610
 </td>
 <td style="text-align:left;">
 11,451,328
@@ -1093,13 +1093,13 @@ covid
 3,975,921
 </td>
 <td style="text-align:left;">
-6,694,566
+6,821,702
 </td>
 <td style="text-align:left;">
 1,945,187
 </td>
 <td style="text-align:left;">
-7,045,352
+7,155,304
 </td>
 </tr>
 <tr>
@@ -1116,7 +1116,7 @@ fauci
 india
 </td>
 <td style="text-align:left;">
-pfizer
+congress
 </td>
 <td style="text-align:left;">
 chinese
@@ -1136,7 +1136,7 @@ chinese
 4,633,753
 </td>
 <td style="text-align:left;">
-1,230,201
+1,245,742
 </td>
 <td style="text-align:left;">
 4,400,646
