@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 02/12/2021 there were a total of **1,404,741,665** tweets
+As of 02/14/2021 there were a total of **1,410,975,223** tweets
 collected. The tweets are collected using Twitter’s trending topics and
 selected keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -260,11 +260,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 02/12/2021:
+As of 02/14/2021:
 
-Total Number of tweets: **1,404,741,665**
+Total Number of tweets: **1,410,975,223**
 
-Average daily number of tweets: **149,752**
+Average daily number of tweets: **149,018**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -771,25 +771,25 @@ Max No. Likes
 2
 </td>
 <td style="text-align:left;">
-52,871
+50,697
 </td>
 <td style="text-align:left;">
-115,556
+109,759
 </td>
 <td style="text-align:left;">
-170,835
+160,551
 </td>
 <td style="text-align:left;">
-14,054,252
+16,046,655
 </td>
 <td style="text-align:left;">
-29,351,809
+33,592,964
 </td>
 <td style="text-align:left;">
-43,406,061
+49,639,619
 </td>
 <td style="text-align:left;">
-10,439
+12,294
 </td>
 <td style="text-align:left;">
 964,107
@@ -803,7 +803,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 3,975,549 tweets with geolocation information, which
+There is a total of 3,977,404 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -833,10 +833,10 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-942,131,100
+945,872,399
 </td>
 <td style="text-align:right;">
-67.24
+67.21
 </td>
 </tr>
 <tr>
@@ -844,10 +844,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-176,764,816
+177,723,609
 </td>
 <td style="text-align:right;">
-12.62
+12.63
 </td>
 </tr>
 <tr>
@@ -855,7 +855,7 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-54,049,783
+54,342,300
 </td>
 <td style="text-align:right;">
 3.86
@@ -866,7 +866,7 @@ Portuguese
 French
 </td>
 <td style="text-align:left;">
-39,372,722
+39,593,907
 </td>
 <td style="text-align:right;">
 2.81
@@ -877,7 +877,7 @@ French
 Bahasa
 </td>
 <td style="text-align:left;">
-38,039,628
+38,171,936
 </td>
 <td style="text-align:right;">
 2.71
@@ -888,10 +888,10 @@ Bahasa
 Others
 </td>
 <td style="text-align:left;">
-150,836,095
+151,723,551
 </td>
 <td style="text-align:right;">
-10.76
+10.78
 </td>
 </tr>
 </tbody>
@@ -967,7 +967,7 @@ covid-19
 14,106,218
 </td>
 <td style="text-align:left;">
-80,944,659
+81,227,319
 </td>
 <td style="text-align:left;">
 37,132,517
@@ -1007,7 +1007,7 @@ americans
 7,153,404
 </td>
 <td style="text-align:left;">
-38,065,807
+38,114,327
 </td>
 <td style="text-align:left;">
 5,628,932
@@ -1047,7 +1047,7 @@ coronavirus
 3,380,681
 </td>
 <td style="text-align:left;">
-8,684,334
+8,705,705
 </td>
 <td style="text-align:left;">
 5,615,145
@@ -1124,10 +1124,10 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-1,354,266
+1,416,906
 </td>
 <td style="text-align:left;">
-1,424,310
+1,433,758
 </td>
 <td style="text-align:left;">
 3,051,438
