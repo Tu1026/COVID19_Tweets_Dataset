@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 02/14/2021 there were a total of **1,410,975,223** tweets
+As of 02/14/2021 there were a total of **1,412,876,447** tweets
 collected. The tweets are collected using Twitter’s trending topics and
 selected keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -262,9 +262,9 @@ Data Statistics
 
 As of 02/14/2021:
 
-Total Number of tweets: **1,410,975,223**
+Total Number of tweets: **1,412,876,447**
 
-Average daily number of tweets: **149,018**
+Average daily number of tweets: **148,924**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -771,25 +771,25 @@ Max No. Likes
 2
 </td>
 <td style="text-align:left;">
-50,697
+49,892
 </td>
 <td style="text-align:left;">
-109,759
+108,814
 </td>
 <td style="text-align:left;">
-160,551
+159,240
 </td>
 <td style="text-align:left;">
-16,046,655
+16,650,610
 </td>
 <td style="text-align:left;">
-33,592,964
+34,890,233
 </td>
 <td style="text-align:left;">
-49,639,619
+51,540,843
 </td>
 <td style="text-align:left;">
-12,294
+12,759
 </td>
 <td style="text-align:left;">
 964,107
@@ -803,7 +803,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 3,977,404 tweets with geolocation information, which
+There is a total of 3,977,869 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -833,10 +833,10 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-945,872,399
+947,018,056
 </td>
 <td style="text-align:right;">
-67.21
+67.20
 </td>
 </tr>
 <tr>
@@ -844,7 +844,7 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-177,723,609
+178,007,667
 </td>
 <td style="text-align:right;">
 12.63
@@ -855,7 +855,7 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-54,342,300
+54,413,824
 </td>
 <td style="text-align:right;">
 3.86
@@ -866,7 +866,7 @@ Portuguese
 French
 </td>
 <td style="text-align:left;">
-39,593,907
+39,660,269
 </td>
 <td style="text-align:right;">
 2.81
@@ -877,7 +877,7 @@ French
 Bahasa
 </td>
 <td style="text-align:left;">
-38,171,936
+38,246,506
 </td>
 <td style="text-align:right;">
 2.71
@@ -888,7 +888,7 @@ Bahasa
 Others
 </td>
 <td style="text-align:left;">
-151,723,551
+151,982,604
 </td>
 <td style="text-align:right;">
 10.78
@@ -967,7 +967,7 @@ covid-19
 14,106,218
 </td>
 <td style="text-align:left;">
-81,227,319
+81,323,718
 </td>
 <td style="text-align:left;">
 37,132,517
@@ -1007,7 +1007,7 @@ americans
 7,153,404
 </td>
 <td style="text-align:left;">
-38,114,327
+38,128,867
 </td>
 <td style="text-align:left;">
 5,628,932
@@ -1047,7 +1047,7 @@ coronavirus
 3,380,681
 </td>
 <td style="text-align:left;">
-8,705,705
+8,719,345
 </td>
 <td style="text-align:left;">
 5,615,145
@@ -1124,10 +1124,10 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-1,416,906
+1,426,402
 </td>
 <td style="text-align:left;">
-1,433,758
+1,438,639
 </td>
 <td style="text-align:left;">
 3,051,438
@@ -1197,6 +1197,78 @@ Time
 </td>
 <td style="text-align:left;">
 07:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+15:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+16:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+17:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+18:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+19:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+20:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+21:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+22:00 UTC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2021-02-06
+</td>
+<td style="text-align:left;">
+23:00 UTC
 </td>
 </tr>
 </tbody>
