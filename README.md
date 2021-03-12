@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 02/19/2021 there were a total of **1,416,519,888** tweets
+As of 02/19/2021 there were a total of **1,431,742,565** tweets
 collected. The tweets are collected using Twitter’s trending topics and
 selected keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -262,9 +262,9 @@ Data Statistics
 
 As of 02/19/2021:
 
-Total Number of tweets: **1,416,519,888**
+Total Number of tweets: **1,431,742,565**
 
-Average daily number of tweets: **148,682**
+Average daily number of tweets: **148,812**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -771,25 +771,25 @@ Max No. Likes
 2
 </td>
 <td style="text-align:left;">
-48,774
+49,554
 </td>
 <td style="text-align:left;">
-106,996
+108,641
 </td>
 <td style="text-align:left;">
-155,846
+157,671
 </td>
 <td style="text-align:left;">
-17,876,878
+22,735,468
 </td>
 <td style="text-align:left;">
-37,307,424
+47,671,511
 </td>
 <td style="text-align:left;">
-55,184,284
+70,406,961
 </td>
 <td style="text-align:left;">
-13,704
+17,393
 </td>
 <td style="text-align:left;">
 964,107
@@ -803,7 +803,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 3,978,814 tweets with geolocation information, which
+There is a total of 3,982,503 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -833,10 +833,10 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-947,018,056
+958,566,904
 </td>
 <td style="text-align:right;">
-67.20
+67.12
 </td>
 </tr>
 <tr>
@@ -844,10 +844,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-178,007,667
+180,950,034
 </td>
 <td style="text-align:right;">
-12.63
+12.67
 </td>
 </tr>
 <tr>
@@ -855,7 +855,7 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-54,413,824
+55,194,220
 </td>
 <td style="text-align:right;">
 3.86
@@ -866,10 +866,10 @@ Portuguese
 French
 </td>
 <td style="text-align:left;">
-39,660,269
+40,294,548
 </td>
 <td style="text-align:right;">
-2.81
+2.82
 </td>
 </tr>
 <tr>
@@ -877,7 +877,7 @@ French
 Bahasa
 </td>
 <td style="text-align:left;">
-38,246,506
+38,740,257
 </td>
 <td style="text-align:right;">
 2.71
@@ -888,10 +888,10 @@ Bahasa
 Others
 </td>
 <td style="text-align:left;">
-151,982,604
+154,449,063
 </td>
 <td style="text-align:right;">
-10.78
+10.81
 </td>
 </tr>
 </tbody>
@@ -967,19 +967,19 @@ covid-19
 14,106,218
 </td>
 <td style="text-align:left;">
-81,504,369
+82,266,767
 </td>
 <td style="text-align:left;">
-37,912,120
+37,962,335
 </td>
 <td style="text-align:left;">
-22,510,316
+22,549,086
 </td>
 <td style="text-align:left;">
 9,199,997
 </td>
 <td style="text-align:left;">
-26,320,384
+26,385,506
 </td>
 </tr>
 <tr>
@@ -1007,19 +1007,19 @@ americans
 7,153,404
 </td>
 <td style="text-align:left;">
-38,158,637
+38,281,576
 </td>
 <td style="text-align:left;">
-6,928,511
+6,960,748
 </td>
 <td style="text-align:left;">
-21,711,588
+21,760,380
 </td>
 <td style="text-align:left;">
 3,439,634
 </td>
 <td style="text-align:left;">
-14,630,727
+14,656,079
 </td>
 </tr>
 <tr>
@@ -1047,16 +1047,16 @@ coronavirus
 3,380,681
 </td>
 <td style="text-align:left;">
-8,743,702
+8,834,076
 </td>
 <td style="text-align:left;">
-6,114,528
+6,147,950
 </td>
 <td style="text-align:left;">
-8,220,342
+8,309,697
 </td>
 <td style="text-align:left;">
-2,247,571
+2,265,922
 </td>
 <td style="text-align:left;">
 11,423,419
@@ -1099,7 +1099,7 @@ covid
 2,139,138
 </td>
 <td style="text-align:left;">
-8,072,550
+8,110,958
 </td>
 </tr>
 <tr>
@@ -1116,7 +1116,7 @@ fauci
 india
 </td>
 <td style="text-align:left;">
-pfizer
+congress
 </td>
 <td style="text-align:left;">
 chinese
@@ -1124,10 +1124,10 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-1,426,402
+1,508,475
 </td>
 <td style="text-align:left;">
-1,450,006
+1,506,861
 </td>
 <td style="text-align:left;">
 3,153,327
@@ -1136,7 +1136,7 @@ chinese
 5,222,054
 </td>
 <td style="text-align:left;">
-1,431,674
+1,444,597
 </td>
 <td style="text-align:left;">
 4,347,302
