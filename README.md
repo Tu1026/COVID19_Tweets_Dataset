@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 02/19/2021 there were a total of **1,416,519,870** tweets
+As of 02/19/2021 there were a total of **1,416,519,888** tweets
 collected. The tweets are collected using Twitter’s trending topics and
 selected keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -262,9 +262,9 @@ Data Statistics
 
 As of 02/19/2021:
 
-Total Number of tweets: **1,416,519,870**
+Total Number of tweets: **1,416,519,888**
 
-Average daily number of tweets: **148,829**
+Average daily number of tweets: **148,682**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -771,25 +771,25 @@ Max No. Likes
 2
 </td>
 <td style="text-align:left;">
-49,892
+48,774
 </td>
 <td style="text-align:left;">
-108,280
+106,996
 </td>
 <td style="text-align:left;">
-157,909
+155,846
 </td>
 <td style="text-align:left;">
-17,876,860
+17,876,878
 </td>
 <td style="text-align:left;">
-37,307,406
+37,307,424
 </td>
 <td style="text-align:left;">
-55,184,266
+55,184,284
 </td>
 <td style="text-align:left;">
-13,686
+13,704
 </td>
 <td style="text-align:left;">
 964,107
@@ -803,7 +803,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 3,978,796 tweets with geolocation information, which
+There is a total of 3,978,814 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -970,16 +970,16 @@ covid-19
 81,504,369
 </td>
 <td style="text-align:left;">
-37,818,750
+37,912,120
 </td>
 <td style="text-align:left;">
-22,397,172
+22,510,316
 </td>
 <td style="text-align:left;">
 9,199,997
 </td>
 <td style="text-align:left;">
-26,198,555
+26,320,384
 </td>
 </tr>
 <tr>
@@ -1010,16 +1010,16 @@ americans
 38,158,637
 </td>
 <td style="text-align:left;">
-6,896,852
+6,928,511
 </td>
 <td style="text-align:left;">
-21,661,634
+21,711,588
 </td>
 <td style="text-align:left;">
-3,424,659
+3,439,634
 </td>
 <td style="text-align:left;">
-14,565,860
+14,630,727
 </td>
 </tr>
 <tr>
@@ -1050,10 +1050,10 @@ coronavirus
 8,743,702
 </td>
 <td style="text-align:left;">
-6,061,023
+6,114,528
 </td>
 <td style="text-align:left;">
-8,055,470
+8,220,342
 </td>
 <td style="text-align:left;">
 2,247,571
@@ -1093,13 +1093,13 @@ covid
 3,975,921
 </td>
 <td style="text-align:left;">
-7,184,880
+7,200,629
 </td>
 <td style="text-align:left;">
 2,139,138
 </td>
 <td style="text-align:left;">
-8,016,657
+8,072,550
 </td>
 </tr>
 <tr>
@@ -1136,7 +1136,7 @@ chinese
 5,222,054
 </td>
 <td style="text-align:left;">
-1,399,415
+1,431,674
 </td>
 <td style="text-align:left;">
 4,347,302
@@ -1197,78 +1197,6 @@ Time
 </td>
 <td style="text-align:left;">
 07:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-15:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-16:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-17:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-18:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-19:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-20:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-21:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-22:00 UTC
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2021-02-06
-</td>
-<td style="text-align:left;">
-23:00 UTC
 </td>
 </tr>
 </tbody>
