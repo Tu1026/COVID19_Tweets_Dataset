@@ -16,7 +16,7 @@
 The repository contains an ongoing collection of tweets associated with
 the novel coronavirus COVID-19 since January 22nd, 2020.
 
-As of 02/19/2021 there were a total of **1,431,742,565** tweets
+As of 03/02/2021 there were a total of **1,456,994,898** tweets
 collected. The tweets are collected using Twitter’s trending topics and
 selected keywords. Moreover, the tweets from [Chen et
 al. (2020)](https://github.com/echen102/COVID-19-TweetIDs) was used to
@@ -260,11 +260,11 @@ Data Statistics
 
 ### General Statistics
 
-As of 02/19/2021:
+As of 03/02/2021:
 
-Total Number of tweets: **1,431,742,565**
+Total Number of tweets: **1,456,994,898**
 
-Average daily number of tweets: **148,812**
+Average daily number of tweets: **149,749**
 
 <table class="table table" style="margin-left: auto; margin-right: auto; font-size: 12px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
@@ -771,31 +771,66 @@ Max No. Likes
 2
 </td>
 <td style="text-align:left;">
-49,554
+48,584
 </td>
 <td style="text-align:left;">
-108,641
+106,679
 </td>
 <td style="text-align:left;">
-157,671
+155,822
 </td>
 <td style="text-align:left;">
-22,735,468
+29,532,150
 </td>
 <td style="text-align:left;">
-47,671,511
+62,092,958
 </td>
 <td style="text-align:left;">
-70,406,961
+91,625,090
 </td>
 <td style="text-align:left;">
-17,393
+22,606
 </td>
 <td style="text-align:left;">
-964,107
+971,119
 </td>
 <td style="text-align:left;">
 644,697
+</td>
+</tr>
+<tr>
+<td style="text-align:right;">
+2021
+</td>
+<td style="text-align:left;">
+3
+</td>
+<td style="text-align:left;">
+55,934
+</td>
+<td style="text-align:left;">
+110,510
+</td>
+<td style="text-align:left;">
+164,713
+</td>
+<td style="text-align:left;">
+1,358,094
+</td>
+<td style="text-align:left;">
+2,676,110
+</td>
+<td style="text-align:left;">
+4,034,204
+</td>
+<td style="text-align:left;">
+873
+</td>
+<td style="text-align:left;">
+666,088
+</td>
+<td style="text-align:left;">
+169,885
 </td>
 </tr>
 </tbody>
@@ -803,7 +838,7 @@ Max No. Likes
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/Tweets%20per%20Day.png)
 
-There is a total of 3,982,503 tweets with geolocation information, which
+There is a total of 3,988,589 tweets with geolocation information, which
 are shown on a map below:
 
 ![](https://github.com/lopezbec/COVID19_Tweets_Dataset/blob/master/Summary_Details/GeoTweets.png)
@@ -833,10 +868,10 @@ Percentage of Tweets
 English
 </td>
 <td style="text-align:left;">
-958,566,904
+974,147,298
 </td>
 <td style="text-align:right;">
-67.12
+67.02
 </td>
 </tr>
 <tr>
@@ -844,10 +879,10 @@ English
 Spanish; Castilian
 </td>
 <td style="text-align:left;">
-180,950,034
+184,325,297
 </td>
 <td style="text-align:right;">
-12.67
+12.68
 </td>
 </tr>
 <tr>
@@ -855,10 +890,10 @@ Spanish; Castilian
 Portuguese
 </td>
 <td style="text-align:left;">
-55,194,220
+56,640,286
 </td>
 <td style="text-align:right;">
-3.86
+3.90
 </td>
 </tr>
 <tr>
@@ -866,10 +901,10 @@ Portuguese
 French
 </td>
 <td style="text-align:left;">
-40,294,548
+41,201,243
 </td>
 <td style="text-align:right;">
-2.82
+2.83
 </td>
 </tr>
 <tr>
@@ -877,7 +912,7 @@ French
 Bahasa
 </td>
 <td style="text-align:left;">
-38,740,257
+39,385,090
 </td>
 <td style="text-align:right;">
 2.71
@@ -888,10 +923,10 @@ Bahasa
 Others
 </td>
 <td style="text-align:left;">
-154,449,063
+157,748,145
 </td>
 <td style="text-align:right;">
-10.81
+10.85
 </td>
 </tr>
 </tbody>
@@ -967,7 +1002,7 @@ covid-19
 14,106,218
 </td>
 <td style="text-align:left;">
-82,266,767
+83,424,360
 </td>
 <td style="text-align:left;">
 37,962,335
@@ -1007,7 +1042,7 @@ americans
 7,153,404
 </td>
 <td style="text-align:left;">
-38,281,576
+38,473,583
 </td>
 <td style="text-align:left;">
 6,960,748
@@ -1047,7 +1082,7 @@ coronavirus
 3,380,681
 </td>
 <td style="text-align:left;">
-8,834,076
+8,997,199
 </td>
 <td style="text-align:left;">
 6,147,950
@@ -1124,10 +1159,10 @@ chinese
 </tr>
 <tr>
 <td style="text-align:left;">
-1,508,475
+1,631,881
 </td>
 <td style="text-align:left;">
-1,506,861
+1,569,540
 </td>
 <td style="text-align:left;">
 3,153,327
