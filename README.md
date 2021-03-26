@@ -1279,11 +1279,7 @@ Inquiries
 ---------
 
 For questions about the dataset, please contact Dr. Christian Lopez at
-**<a href="mailto:lopezbec@lafayette.edu" class="email">lopezbec@lafayette.edu</a>**,
-Dr. Caleb Gallemore at
-**<a href="mailto:gallemoc@lafayette.edu" class="email">gallemoc@lafayette.edu</a>**,
-or Malolan Vasu at
-**<a href="mailto:vasum@lafayette.edu" class="email">vasum@lafayette.edu</a>**.
+**<a href="mailto:lopezbec@lafayette.edu" class="email">lopezbec@lafayette.edu</a>**
 
 Licensing
 ---------
