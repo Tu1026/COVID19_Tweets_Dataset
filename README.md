@@ -1005,16 +1005,16 @@ covid-19
 86,863,827
 </td>
 <td style="text-align:left;">
-38,108,689
+37,869,624
 </td>
 <td style="text-align:left;">
-22,832,224
+22,856,850
 </td>
 <td style="text-align:left;">
-9,560,999
+9,631,273
 </td>
 <td style="text-align:left;">
-28,359,223
+28,765,183
 </td>
 </tr>
 <tr>
@@ -1045,16 +1045,16 @@ americans
 39,034,202
 </td>
 <td style="text-align:left;">
-8,824,165
+9,415,906
 </td>
 <td style="text-align:left;">
-16,811,450
+16,373,946
 </td>
 <td style="text-align:left;">
-3,371,616
+3,308,787
 </td>
 <td style="text-align:left;">
-15,305,557
+15,549,660
 </td>
 </tr>
 <tr>
@@ -1074,7 +1074,7 @@ uk
 senate
 </td>
 <td style="text-align:left;">
-coronavirus
+covid
 </td>
 </tr>
 <tr>
@@ -1085,16 +1085,16 @@ coronavirus
 9,494,723
 </td>
 <td style="text-align:left;">
-6,838,699
+7,034,171
 </td>
 <td style="text-align:left;">
-9,789,065
+10,025,189
 </td>
 <td style="text-align:left;">
-2,685,280
+3,097,122
 </td>
 <td style="text-align:left;">
-9,989,249
+10,235,354
 </td>
 </tr>
 <tr>
@@ -1114,7 +1114,7 @@ america
 covid
 </td>
 <td style="text-align:left;">
-covid
+coronavirus
 </td>
 </tr>
 <tr>
@@ -1125,16 +1125,16 @@ covid
 2,252,353
 </td>
 <td style="text-align:left;">
-3,949,521
+3,936,135
 </td>
 <td style="text-align:left;">
-7,392,979
+7,495,427
 </td>
 <td style="text-align:left;">
-2,366,696
+2,416,825
 </td>
 <td style="text-align:left;">
-9,598,036
+9,119,414
 </td>
 </tr>
 <tr>
@@ -1168,13 +1168,13 @@ american
 3,292,568
 </td>
 <td style="text-align:left;">
-5,668,003
+5,713,581
 </td>
 <td style="text-align:left;">
-1,649,388
+1,676,307
 </td>
 <td style="text-align:left;">
-3,387,349
+3,361,969
 </td>
 </tr>
 </tbody>
